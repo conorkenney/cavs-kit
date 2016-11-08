@@ -1,0 +1,516 @@
+{
+  "query": {
+    "type": "video",
+    "schedule": "20160619/CLEGSW",
+    "size": "12"
+  },
+  "settings": {
+    "timestamp": "Wed Oct 19 10:27:34 EST 2016",
+    "view mode": "list",
+    "text format": "plain",
+    "type": [
+      "video",
+      "league_video",
+      "wsc_video"
+    ],
+    "offset": 0,
+    "size": 12,
+    "count": 12,
+    "schedule": "20160619/CLEGSW",
+    "test": "schedule",
+    "language": [
+      "en",
+      "und"
+    ],
+    "sort": "created",
+    "order": "DESC"
+  },
+  "content": [
+    {
+      "nid": "43077",
+      "type": "video",
+      "title": "CavsTV Top Plays From The NBA Finals",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/07/07/1467933338715-160706-topplaysoffinalsv2mp4-638203",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43077",
+      "created": "07 Jul 2016 23:15:00 UTC",
+      "changed": "07 Jul 2016 23:22:39 UTC",
+      "formatted": {
+        "created": "2016-07-07",
+        "changed": "2016-07-07"
+      },
+      "author": "Dave McElhatten",
+      "teaser": "Check out some of the best highlights from the 2016 NBA Finals against the Golden State Warriors, courtesy of ZTE.",
+      "videoID": "teams/cavaliers/2016/07/07/1467933338715-160706-TopPlaysOfFinalsV2.mp4-638203",
+      "adactusID": "teams/cavaliers/2016/07/07/1467933338715-160706-TopPlaysOfFinalsV2",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/07/07/1467933338715-160706-TopPlaysOfFinalsV2.mp4-638203.xml",
+      "duration": "06:21",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/07/07/638211/1467933734696-finals00000000.jpg-638211.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "Team Exclusives",
+          "Top Plays",
+          "Team Originals"
+        ],
+        "players": [
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Jefferson, Richard",
+          "Love, Kevin",
+          "McRae, Jordan",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          }
+        },
+        "tags": [
+          "CavsTV Top Plays",
+          "2016 Finals vs Warriors",
+          "2016 Playoffs"
+        ]
+      }
+    },
+    {
+      "nid": "42921",
+      "type": "video",
+      "title": "CavsTV Recaps the Championship Celebration",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/22/1466595180154-160622-championship-lockerroom.mov-608827",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42921",
+      "created": "22 Jun 2016 11:33:00 UTC",
+      "changed": "22 Jun 2016 11:36:42 UTC",
+      "formatted": {
+        "created": "2016-06-22",
+        "changed": "2016-06-22"
+      },
+      "author": "Nick Adams",
+      "teaser": "From the final buzzer, to the locker room and then back home to Cleveland, CavsTV recaps the Cavs Championship celebration.",
+      "videoID": "teams/cavaliers/2016/06/22/1466595180154-160622-championship-lockerroom.mov-608827",
+      "adactusID": "teams/cavaliers/2016/06/22/1466595180154-160622-championship-lockerroom",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/22/1466595180154-160622-championship-lockerroom.mov-608827.xml",
+      "duration": "02:18",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/22/1466595180154-160622-championship-lockerroom.mov-608827-2.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "GameDay",
+          "Team Originals"
+        ],
+        "players": [
+          "Dellavedova, Matthew",
+          "Frye, Channing",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Jefferson, Richard",
+          "Jones, Dahntay",
+          "Jones, James",
+          "Kaun, Sasha",
+          "Love, Kevin",
+          "McRae, Jordan",
+          "Mozgov, Timofey",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan",
+          "Williams, Mo"
+        ],
+        "coaches": [
+          "Boylan, Jim",
+          "Brielmaier, Bret",
+          "Drew, Larry",
+          "Handy, Phil",
+          "Longabardi, Mike",
+          "Lue, Tyronn",
+          "Posey, James"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2563": {
+            "first_name": "Dahntay",
+            "last_name": "Jones",
+            "person_id": "2563"
+          },
+          "2590": {
+            "first_name": "Mo",
+            "last_name": "Williams",
+            "person_id": "2590"
+          },
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "201619": {
+            "first_name": "Sasha",
+            "last_name": "Kaun",
+            "person_id": "201619"
+          },
+          "202389": {
+            "first_name": "Timofey",
+            "last_name": "Mozgov",
+            "person_id": "202389"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "203521": {
+            "first_name": "Matthew",
+            "last_name": "Dellavedova",
+            "person_id": "203521"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          }
+        },
+        "tags": [
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors"
+        ]
+      }
+    },
+    {
+      "nid": "42909",
+      "type": "video",
+      "title": "Championship Homecoming Celebration: Head Coach Tyronn Lue - June 20, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466544896699-160619-tlue-airport.mov-607597",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42909",
+      "created": "21 Jun 2016 21:34:00 UTC",
+      "changed": "21 Jun 2016 21:38:10 UTC",
+      "formatted": {
+        "created": "2016-06-21",
+        "changed": "2016-06-21"
+      },
+      "author": "Dave McElhatten",
+      "teaser": "Cavaliers Head Coach Tyronn Lue spoke with FOX Sports Ohio’s Fred McLeod as the team returned home after winning the 2016 NBA Championship.",
+      "videoID": "teams/cavaliers/2016/06/21/1466544896699-160619-TLue-Airport.mov-607597",
+      "adactusID": "teams/cavaliers/2016/06/21/1466544896699-160619-TLue-Airport",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466544896699-160619-TLue-Airport.mov-607597.xml",
+      "duration": "02:02",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/21/1466544896699-160619-TLue-Airport.mov-607597-1.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "Team Exclusives",
+          "GameDay",
+          "Team Originals"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "tags": [
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors"
+        ]
+      }
+    },
+    {
+      "nid": "42903",
+      "type": "video",
+      "title": "Game 7 Postgame: General Manager David Griffin - June 19, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466543258961-160619-griff-postgame.mov-607558",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42903",
+      "created": "21 Jun 2016 21:07:00 UTC",
+      "changed": "21 Jun 2016 21:19:34 UTC",
+      "formatted": {
+        "created": "2016-06-21",
+        "changed": "2016-06-21"
+      },
+      "author": "Dave McElhatten",
+      "teaser": "Cavaliers General Manager David Griffin spoke in the locker room following Sunday&#039;s 93-89 victory over the Golden State Warriors in Game 7 of the NBA Finals at Oracle Arena.",
+      "videoID": "teams/cavaliers/2016/06/21/1466543258961-160619-Griff-PostGame.mov-607558",
+      "adactusID": "teams/cavaliers/2016/06/21/1466543258961-160619-Griff-PostGame",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466543258961-160619-Griff-PostGame.mov-607558.xml",
+      "duration": "01:05",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/21/1466543258961-160619-Griff-PostGame.mov-607558-9.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "Team Exclusives",
+          "GameDay",
+          "Team Originals"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "tags": [
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors"
+        ]
+      }
+    },
+    {
+      "nid": "42901",
+      "type": "video",
+      "title": "Game 7 Postgame: LeBron James - June 19, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466539947018-160619-lbj-postgame.mov-607409",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42901",
+      "created": "21 Jun 2016 20:12:00 UTC",
+      "changed": "21 Jun 2016 21:18:13 UTC",
+      "formatted": {
+        "created": "2016-06-21",
+        "changed": "2016-06-21"
+      },
+      "author": "Dave McElhatten",
+      "teaser": "Cavaliers forward LeBron James spoke in the locker room following Sunday&#039;s 93-89 victory over the Golden State Warriors in Game 7 of the NBA Finals at Oracle Arena.",
+      "videoID": "teams/cavaliers/2016/06/21/1466539947018-160619-LBJ-PostGame.mov-607409",
+      "adactusID": "teams/cavaliers/2016/06/21/1466539947018-160619-LBJ-PostGame",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466539947018-160619-LBJ-PostGame.mov-607409.xml",
+      "duration": "10:43",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/21/1466539947018-160619-LBJ-PostGame.mov-607409-1.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "Team Exclusives",
+          "GameDay",
+          "Team Originals"
+        ],
+        "players": [
+          "James, LeBron"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          }
+        },
+        "tags": [
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors"
+        ]
+      }
+    },
+    {
+      "nid": "42899",
+      "type": "video",
+      "title": "Game 7 Postgame: Iman Shumpert - June 19, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466539696443-160619-shump-postgame.mov-607406",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42899",
+      "created": "21 Jun 2016 20:08:00 UTC",
+      "changed": "21 Jun 2016 21:18:37 UTC",
+      "formatted": {
+        "created": "2016-06-21",
+        "changed": "2016-06-21"
+      },
+      "author": "Dave McElhatten",
+      "teaser": "Cavaliers guard Iman Shumpert spoke in the locker room following Sunday&#039;s 93-89 victory over the Golden State Warriors in Game 7 of the NBA Finals at Oracle Arena.",
+      "videoID": "teams/cavaliers/2016/06/21/1466539696443-160619-Shump-PostGame.mov-607406",
+      "adactusID": "teams/cavaliers/2016/06/21/1466539696443-160619-Shump-PostGame",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466539696443-160619-Shump-PostGame.mov-607406.xml",
+      "duration": "01:12",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/21/1466539696443-160619-Shump-PostGame.mov-607406-1.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "Team Exclusives",
+          "GameDay",
+          "Team Originals"
+        ],
+        "players": [
+          "Shumpert, Iman"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          }
+        },
+        "tags": [
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors"
+        ]
+      }
+    },
+    {
+      "nid": "42897",
+      "type": "video",
+      "title": "Game 7 Postgame: Kevin Love - June 19, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466539623152-160619-klove-postgame.mov-607404",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42897",
+      "created": "21 Jun 2016 20:07:00 UTC",
+      "changed": "21 Jun 2016 21:17:36 UTC",
+      "formatted": {
+        "created": "2016-06-21",
+        "changed": "2016-06-21"
+      },
+      "author": "Dave McElhatten",
+      "teaser": "Cavaliers forward Kevin Love spoke in the locker room following Sunday&#039;s 93-89 victory over the Golden State Warriors in Game 7 of the NBA Finals at Oracle Arena.",
+      "videoID": "teams/cavaliers/2016/06/21/1466539623152-160619-KLove-PostGame.mov-607404",
+      "adactusID": "teams/cavaliers/2016/06/21/1466539623152-160619-KLove-PostGame",
+      "xml": "http://www.nba.com/cavaliers/video/teams/cavaliers/2016/06/21/1466539623152-160619-KLove-PostGame.mov-607404.xml",
+      "duration": "05:17",
+      "thumbnail": "http://nba.cdn.turner.com/nba/big/teams/cavaliers/2016/06/21/1466539623152-160619-KLove-PostGame.mov-607404-1.576x324.jpg",
+      "taxonomy": {
+        "channels": [
+          "Team Exclusives",
+          "GameDay",
+          "Team Originals"
+        ],
+        "players": [
+          "Love, Kevin"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          }
+        },
+        "tags": [
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors"
+        ]
+      }
+    }
+  ],
+  "next": "http://www.nba.com/cavaliers/api/1.1/json/?type=video&schedule=20160619/CLEGSW&size=12&offset=12"
+}

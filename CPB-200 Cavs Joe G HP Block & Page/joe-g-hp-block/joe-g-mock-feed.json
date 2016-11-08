@@ -1,0 +1,400 @@
+{
+  "query": {
+    "tags": "Joe Gabriele",
+    "sort": "changed",
+    "size": "5"
+  },
+  "settings": {
+    "timestamp": "Tue Oct 18 11:42:09 EST 2016",
+    "view mode": "list",
+    "text format": "plain",
+    "type": [
+      "story",
+      "video",
+      "league_video",
+      "wsc_video",
+      "photo_gallery"
+    ],
+    "offset": 0,
+    "size": 5,
+    "count": 5,
+    "tags": "Joe Gabriele",
+    "test": "tags",
+    "language": [
+      "en",
+      "und"
+    ],
+    "sort": "changed",
+    "order": "DESC"
+  },
+  "content": [
+    {
+      "nid": "44333",
+      "type": "story",
+      "title": "The Optimist in Columbus",
+      "subtitle": "October 18, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/optimist-columbus-161018",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44333",
+      "created": "18 Oct 2016 05:56:00 UTC",
+      "changed": "18 Oct 2016 14:32:49 UTC",
+      "formatted": {
+        "created": "2016-10-18",
+        "changed": "2016-10-18"
+      },
+      "author": "",
+      "teaser": "Haho, y’uns. I’m an Optimist – corresponding from Columbus, Ohio: birthplace of Archie Griffin, Buster Douglas, Dwight Yoakam, Guy Fieri, Jack Nicklaus, John Legend, Bobby Rahal, Beverly D’Angelo, RJD2, Wendy’s founder Dave Thomas, three Miss Americas, Li’l Bow Wow, Max and Erma and, of course, the “Macho Man” Randy Savage.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/optimist_columbus_161018_0.jpg?itok=-zZb1vtI",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/optimist_columbus_161018_0.jpg?itok=k4pVChP7",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/optimist_columbus_161018_0.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/optimist_columbus_161018_0.jpg?itok=-zZb1vtI",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "James, LeBron",
+          "Smith, J.R."
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          }
+        },
+        "tags": [
+          "Features",
+          "The Optimist",
+          "Joe Gabriele",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44281",
+      "type": "story",
+      "title": "Cavs Can't Hold Off Bulls Starters in Chicago ",
+      "subtitle": "Super-Subs Lead Bulls Through Three Almost Quarters, Fall in the Fourth",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-bulls-161014",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44281",
+      "created": "15 Oct 2016 05:15:00 UTC",
+      "changed": "15 Oct 2016 15:28:15 UTC",
+      "formatted": {
+        "created": "2016-10-15",
+        "changed": "2016-10-15"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Once again going with a roster of roster hopefuls, the Cavaliers took another Eastern Conference rival using their regulars to their limit – going toe-to-toe with Dwyane Wade, Rajon Rondo and the Bulls before falling, 118-108, on Friday night in Chicago.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holland_161014.jpg?itok=0SjfCmj8",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/holland_161014.jpg?itok=iAqtJjB8",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/holland_161014.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holland_161014.jpg?itok=0SjfCmj8",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Felder, Kay",
+          "Holland, John",
+          "Holmes, Jonathan",
+          "Jefferson, Cory",
+          "Jones, James"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Bulls",
+          "Cavaliers"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161014/CLECHI",
+            "gid": "0011600062"
+          }
+        ],
+        "players_info": {
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "203928": {
+            "first_name": "Cory",
+            "last_name": "Jefferson",
+            "person_id": "203928"
+          },
+          "204066": {
+            "first_name": "John",
+            "last_name": "Holland",
+            "person_id": "204066"
+          },
+          "1626182": {
+            "first_name": "Jonathan",
+            "last_name": "Holmes",
+            "person_id": "1626182"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "10-14-16 at Bulls",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44247",
+      "type": "story",
+      "title": "Raptors Run Past Cavaliers at The Q",
+      "subtitle": "Toronto Guards Too Much for Cavs in Preseason Finale in Cleveland",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-raptors-161013",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44247",
+      "created": "14 Oct 2016 03:32:00 UTC",
+      "changed": "14 Oct 2016 13:36:41 UTC",
+      "formatted": {
+        "created": "2016-10-13",
+        "changed": "2016-10-14"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "In their final preseason contest at The Q, the Cavaliers went with their regular starters – minus LeBron James – and after one quarter, it looked like Cleveland’s master over the Raptors on their home floor would continue.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holmes_161013.jpg?itok=d-HuzMi2",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/holmes_161013.jpg?itok=K1XIDaSD",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/holmes_161013.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holmes_161013.jpg?itok=d-HuzMi2",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Irving, Kyrie",
+          "Love, Kevin",
+          "Thompson, Tristan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Raptors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161013/TORCLE",
+            "gid": "0011600059"
+          }
+        ],
+        "players_info": {
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "10-13-16 vs. Raptors",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44205",
+      "type": "story",
+      "title": "Frye Lets It Fly",
+      "subtitle": "Channing Frye Brings Good Vibes to Cleveland -- On and Off the Floor",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/frye-161012",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44205",
+      "created": "12 Oct 2016 21:06:00 UTC",
+      "changed": "14 Oct 2016 00:04:00 UTC",
+      "formatted": {
+        "created": "2016-10-12",
+        "changed": "2016-10-13"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Now beginning his first full season with the Wine and Gold, Channing Frye sat down with Cavs.com to talk about his offseason as an NBA Champ, the adjustments he made over the summer and his perfect shooting mark through the preseason ...",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/frye_161012.jpg?itok=5WzPFpzp",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/frye_161012.jpg?itok=ph_0eiS5",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/frye_161012.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/frye_161012.jpg?itok=5WzPFpzp",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Andersen, Chris",
+          "Dunleavy, Mike",
+          "Felder, Kay",
+          "Frye, Channing"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2365": {
+            "first_name": "Chris",
+            "last_name": "Andersen",
+            "person_id": "2365"
+          },
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44175",
+      "type": "story",
+      "title": "Scrappy Cavaliers Fall in Atlanta",
+      "subtitle": "Reserves Battling for Roster Spots Nearly Topple Hawks",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-hawks-161010",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44175",
+      "created": "11 Oct 2016 04:01:00 UTC",
+      "changed": "11 Oct 2016 16:13:50 UTC",
+      "formatted": {
+        "created": "2016-10-11",
+        "changed": "2016-10-11"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "If there’s one thing the Cavaliers didn’t accomplish in Monday night’s preseason contest in Atlanta, it was making the coaching staff’s job any easier as they try to sort out the remaining spots on the roster.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/douglas_161010.jpg?itok=Nj-hDzaP",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/douglas_161010.jpg?itok=xnbNznjs",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/douglas_161010.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/douglas_161010.jpg?itok=Nj-hDzaP",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Brown, Markel",
+          "Douglas, Toney",
+          "Felder, Kay",
+          "Holmes, Jonathan",
+          "Jefferson, Cory",
+          "Liggins, DeAndre",
+          "McRae, Jordan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Hawks",
+          "Cavaliers"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161010/CLEATL",
+            "gid": "0011600040"
+          }
+        ],
+        "players_info": {
+          "201962": {
+            "first_name": "Toney",
+            "last_name": "Douglas",
+            "person_id": "201962"
+          },
+          "202732": {
+            "first_name": "DeAndre",
+            "last_name": "Liggins",
+            "person_id": "202732"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          },
+          "203900": {
+            "first_name": "Markel",
+            "last_name": "Brown",
+            "person_id": "203900"
+          },
+          "203928": {
+            "first_name": "Cory",
+            "last_name": "Jefferson",
+            "person_id": "203928"
+          },
+          "1626182": {
+            "first_name": "Jonathan",
+            "last_name": "Holmes",
+            "person_id": "1626182"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "Recap",
+          "10-10-16 at Hawks",
+          "2016-17 Season"
+        ]
+      }
+    }
+  ],
+  "next": "http://www.nba.com/cavaliers/api/1.1/json/?tags=Joe%20Gabriele&sort=changed&size=5&offset=5"
+}

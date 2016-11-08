@@ -1,0 +1,190 @@
+
+
+
+.fieldable-panels-pane h2 {
+    display: none;
+}
+.csb-bg {
+    color: #555 !important;
+}
+
+div.btn-wine{
+    background-color: #860038 !important;
+    border-color: #ccc;
+    color: #fff;
+}
+
+.btn-wine > a {
+    color: #fff;
+}
+
+
+
+.team-logo, .team-logo img {
+    margin:5px auto !important;
+}
+.game-date, .game-time {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+.game-arena, .game-broadcast-tv, .game-broadcast-radio {
+    font-size: 0.8em;
+    font-weight: normal;
+    text-align: left;
+    text-transform: none;
+}
+.game-info > div > i {
+    color: #860038;
+    padding: 0 5px 0 0;
+    width: 20px;
+}
+
+.game-links > div {
+    background-color: #860038;
+    border: 2px solid #eee;
+    color: #fff;
+}
+.team-score {
+    font-size: 2em;
+    font-weight: bold;
+}
+.score {
+    margin: 20px auto;
+}
+
+.csb-score-tile__left::after {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid white;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    overflow:hidden;
+}
+
+.csb-bg {
+    background-image: linear-gradient(#ffffff, #eaeaea);
+    background-size: 100% auto;
+    border:1px solid #ccc;
+   margin-bottom: 40px;
+
+}
+.csb-custom hr {
+    border-bottom: 1px solid white;
+    border-top: 1px solid #ccc;
+    clear: both;
+    margin: 0;
+}
+
+.csb-score-tile__left, .csb-score-tile__right {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.game-info, .game-links {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+
+
+}
+@media screen and (max-width: 768px) {
+
+
+}
+
+.video-header {
+    background: transparent;
+    text-align: center;
+    color: #666;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+    margin: 0 0 10px 0;
+}
+
+.video-header button {
+    background: none;
+    border: none;
+}
+
+#video-dropdown-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+}
+
+#chevydown {
+    display: none;
+}
+
+.video-title {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+#load {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.vid-thumbnail {
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.videoThumbButton {
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+.rowflex {}
+
+.rowflex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    flex-direction: column;
+}
+
+.vid-hp-modal-body {
+    padding: 0;
+}
+
+.vid-hp-modal-footer,
+.vid-hp-modal-header {
+    padding: 5px;
+}
+
+.close {
+    font-size: 28px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}

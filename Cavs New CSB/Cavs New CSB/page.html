@@ -1,0 +1,68 @@
+<div class="container-fluid csb-bg csb-custom">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-push-3">
+            <!-- Home Team -->
+            <div class="col-xs-6 csb-score-tile__left text-center cle">
+                <div class="team-logo-record col-xs-12 col-sm-6 hidden-xs">
+                    <div class="team-logo col-xs-12"><img class="img-responsive" src="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_80x64/cle.gif" alt="Cavaliers"></div>
+                    <div class="team-record col-xs-12">Cavaliers</div>
+                </div>
+                <div class="team-score col-xs-12 col-sm-6">
+                    <div class="score" id="cavs-score"></div>
+                </div>
+                <div class="team-logo-record col-xs-12 hidden-sm hidden-md hidden-lg">
+                    <div class="team-record col-xs-12">Cavaliers</div>
+                </div>
+            </div>
+            <!-- Away Team -->
+            <div class="col-xs-6 csb-score-tile__right text-center tor">
+                <div class="team-score col-xs-12 col-sm-6">
+                    <div class="score" id="opp-score"></div>
+                </div>
+                <div class="team-logo-record col-xs-12 col-sm-6">
+                    <div class="team-logo col-xs-12 hidden-xs"><img class="img-responsive" src="http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_80x64/hou.gif" alt=""></div>
+                    <div class="team-record col-xs-12">Rockets</div>
+                </div>
+            </div>
+            <hr>
+            <div class="col-xs-12 csb-custom-game-clock text-center" id="api-gameday"></div>
+        </div>
+        <!-- Game Info -->
+        <div class="col-xs-12 col-sm-12 col-md-3 col-md-pull-6 game-info">
+            <div class="game-date">Tuesday, Nov. 1</div>
+            <div class="game-time">6:00 PM ET</div>
+            <div class="game-arena"><i class="fa fa-home" aria-hidden="true"></i>Quicken Loans Arena</div>
+            <div class="game-broadcast-tv"><i class="fa fa-television" aria-hidden="true"></i>FSO</div>
+            <div class="game-broadcast-radio"><i class="fa fa-microphone" aria-hidden="true"></i>100.7 WMMS / 87.7 FM (ESP)</div>
+        </div>
+        <!-- Game Links-->
+        <div class="col-xs-12 col-sm-12 col-md-3 game-links">
+            <!--
+       <div class="game-keys btn btn-wine col-xs-4 col-sm-4 col-md-10 col-md-offset-2"><a href="http://www.nba.com/cavaliers/features/recap-magic-161029">Game Recap</a></div>
+
+       <div class="game-preview btn btn-wine col-xs-4 col-sm-4 col-md-10 col-md-offset-2"><a href="http://www.nba.com/cavaliers/photogallery/orlcle-161029">Game Photos</a></div>
+
+       <div class="game-tickets btn btn-wine col-xs-4 col-sm-4 col-md-10 col-md-offset-2"><a href="http://www.nba.com/cavaliers/video/2016/10/29/20161029orlcle2minv1hl/">Watch Highlights</a></div>
+-->
+            <div class="game-keys btn btn-wine col-xs-4 col-sm-4 col-md-10 col-md-offset-2"><a href="http://www.nba.com/gametracker/#/20161101/HOUCLE/cavaliers">Game Tracker</a></div>
+            <div class="game-keys btn btn-wine col-xs-4 col-sm-4 col-md-10 col-md-offset-2"><a href="http://www.nba.com/cavaliers/photogallery/houcle-161101">Game Photos</a></div>
+            <div class="game-tickets btn btn-wine col-xs-4 col-sm-4 col-md-10 col-md-offset-2"><a href="http://www.cavfanatic.com/forums/cavsnbabasketball_game-information#plckforumpage=ForumDiscussion&plckdiscussionid=Cat%3Acavs_nba_basketballForum%3A200869Discussion%3Aceebc3a4-157d-441a-932c-985c2eec8da6">Discuss</a></div>
+        </div>
+    </div>
+    <!-- Video -->
+    <div class="video-dropdown" style="display: none" ;>
+        <h4 class="video-header"><button type="" onclick="videoToggle()">HIGHLIGHT VIDEOS <i id="chevyup" class="fa fa-chevron-circle-down" aria-hidden="true"></i><i id="chevydown" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+</button></h4>
+        <div id="video-dropdown-list" class="rowflex" style="display: none;">
+            <div id="load"><i class="fa fa-spinner fa-spin fa-5x fa-fw"></i>
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <div id="modal-code"></div>
+</div>
+<style>
+</style>
+<script src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/cavaliers/media/js/moment/moment.js"></script>
+<!-- ========================================= JS / GAME CODES ========================================= -->
+

@@ -1,0 +1,48 @@
+<div class="kia-leader"><div id="kia-leader-pic" class="col-xs-5"></div><div class="kia-leader-details col-xs-7"><div class="kia-leader-header"><img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/kia-hp-stat-header2.png" class="img-responsive"></div><div class="stat-category"><p id="statcat"></p></div><div id="leader-number"></div><div id="leader-name"></div><div id="leader-board"></div><p class="kia-more-stats"><a href="http://www.nba.com/cavaliers/stats" title="Cavaliers Statistics Page">More Stats &gt;&gt;</a></p></div></div><style type="text/css" media="screen">.kia-leader{height:216px;width:369px;display:inline-block;background:#FFF;margin-bottom:4px}.kia-leader-header{margin:5px auto}.kia-leader-details p{color:#666}.kia-leader-details{padding:0 3px 0 0}.stat-category p{font-size:10px;text-align:center;padding:5px 0;text-transform:uppercase;line-height:10px}#leader-number h2{color:#860038;font-weight:700;text-align:center;line-height:3px;margin-top:0}#kia-leader-pic{padding:0;z-index:0}#leader-name{text-align:center;font-size:11px;font-variant:small-caps;line-height:10px}#leader-board p{font-size:10px;padding:5px;margin:0;text-transform:uppercase;line-height:10px}.leaderRow1,.leaderRow3{background:#DDD}.kia-more-stats{color:#860038;text-align:right}.kia-more-stats a{color:#860038;font-size:12px;font-variant:small-caps;font-weight:700}</style><script>jQuery(function() {
+    // Grab Team Leaders
+    var baseFeed;
+    var BaseVar,
+        baseCategory;
+    var stat_category_kia = 'points'; //possible values include: 'points' , 'rebounds' or 'assists'
+    if (stat_category_kia == 'rebounds') {
+        baseFeed = 'http://data.nba.com/data/v2015/json/mobile_teams/nba/2016/teams/statistics/cavaliers/leaders_detail_rebounds_02.json';
+        // baseFeed = 'mock.json';
+        baseVar = 'data.reb';
+        baseCategory = 'Rebounds per Game'
+
+    } else if (stat_category_kia == 'assists') {
+        baseFeed = 'http://data.nba.com/data/v2015/json/mobile_teams/nba/2016/teams/statistics/cavaliers/leaders_detail_assists_02.json';
+        baseVar = 'data.ast';
+        baseCategory = 'Assists per Game'
+    } else {
+        baseFeed = 'http://data.nba.com/data/v2015/json/mobile_teams/nba/2016/teams/statistics/cavaliers/leaders_detail_points_02.json';
+        baseVar = 'data.pts';
+        baseCategory = 'Points per Game'
+    }
+
+    jQuery.getJSON(baseFeed, function(data) {
+            jQuery('#statcat').html(baseCategory);
+            if (stat_category_kia == 'rebounds') {
+                var lead = data.reb;
+            } else if (stat_category_kia == 'assists') {
+                var lead = data.ast;
+            } else {
+                var lead = data.pts;
+            }
+            var leaderName = '<p>' + lead.pl[0].fn + ' ' + lead.pl[0].ln + '</p>';
+            jQuery('#leader-name').append(leaderName);
+            var leaderTotal = '<h2>' + lead.pl[0].val + '</h2>';
+            jQuery('#leader-number').append(leaderTotal);
+            var leaderPic = '<img src="http://stats.nba.com/media/players/700/' + lead.pl[0].pid + '.png" class="img-responsive" style="margin-top:-35px;"/>';
+            jQuery('#kia-leader-pic').append(leaderPic);
+            for (var i = 1; i <= 4; i++) {
+                leaderRank = i + 1;
+                var leaderBoardNameValue = '<p class="leaderRow' + i + '"><span style="font-weight:bold;">' + leaderRank + '.</span> ' + lead.pl[i].fn + ' ' + lead.pl[i].ln + '<span style="float:right; font-weight:bold;">' + lead.pl[i].val + '</span></p>';
+                jQuery('#leader-board').append(leaderBoardNameValue);
+            }
+        })
+        .done(function() {})
+        .fail(function() {
+            console.log("Fail - Team Leaders");
+        });
+});</script>

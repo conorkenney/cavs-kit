@@ -1,0 +1,1 @@
+var corsio = 'http://cors.io/?';

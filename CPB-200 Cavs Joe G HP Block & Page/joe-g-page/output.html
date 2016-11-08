@@ -1,0 +1,18 @@
+<style type="text/css" media="screen">.joeg-block{padding:10px;background:#FFF;border-bottom:solid 1px #860038}.joeg-header{border-bottom:solid 2px #fdba31;background:#860038}.author-block__icon{margin:5px;float:left}.author-block__author-title,.author-block__author{margin:0 5px;color:#FFF}.author-block__author-title{font-size:14px}.author-block__author{font-size:20px;font-weight:400}.joe-image{padding:5px}.joeg-title{padding:5px 0;margin:0;font-weight:400;font-size:20px}a.joeg-link{color:#860038}.joeg-teaser-text{font-size:16px;font-weight:300}a.more{color:#860038;font-size:12px}a:hover.more{color:#000}#load{display:inline-block;z-index:10}#joeg-more{display:block;margin:10px auto 0;width:280px;text-align:center}#joeg-more.disabled{background:#777;border:none}</style>
+<div class="joeg-page container">
+    <div class="joeg-header row">
+        <img class="author-block__icon" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/thumbnail/public/pictures/joeg-headshot-140714.png?itok=jbYHfRSL" width="" height="" alt="">
+        <div class="author-block__author">From Joe Gabriele</div>
+        <div class="author-block__author-title">Cavs.com Managing Editor</div>
+    </div>
+    <div class="joeg-list"></div>
+    <button id="joeg-more" class="btn-story" type="" href="#">MORE <i id="load" class="fa fa-circle-o-notch fa-spin fa-1x fa-fw"></i><span class="sr-only">Loading...</span>
+    </button>
+</div>
+ 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+<script>var joegOffset = 0;
+var feed = 'http://www.nba.com/cavaliers/api/1.1/json?tags=Joe Gabriele&sort=created&size=10&offset=';
+var feed1 = feed+joegOffset;
+!function(e){function o(){e.getJSON(feed1,function(e){console.log("success"),n=e.content}).done(function(){console.log("done");for(var o=0;o<n.length;o++)l=n[o].title,a=n[o].url,joeImage=n[o].images.large,joeTeaser=n[o].teaser,r=n[o].changed,pubDateClean=moment(r).format("MMM Do, YYYY"),t=moment(r).fromNow(),e(".joeg-list").append('<div class="row joeg-block">                    <div class="col-sm-3">                        <img src="'+joeImage+'" class="joe-image img-responsive"/>                    </div>                    <div class="col-sm-9">                        <h3 class="joeg-title row'+o+'"><a class="joeg-link" href="'+a+'">'+l+'</a>                        <span class="time-ago small pull-right">'+pubDateClean+'</span></h3>                        <p class="joeg-teaser-text">'+joeTeaser+' <a href="'+a+'" class="more small pull-right">Read More</span></p>                    </div>                    </div>');e("#load").hide(),e("#joeg-more").prop("disabled",!1),e("#joeg-more").removeClass("disabled"),joegOffset+=10,console.log(feed1)}).fail(function(){e(".joeg-list").append('<div class="col-xs-12">An Error Occurred</div>'),console.log("error")}).always(function(){console.log("complete")})}function s(){e("#load").show(),e("#joeg-more").prop("disabled",!0),e("#joeg-more").blur(),e("#joeg-more").addClass("disabled"),feed1=feed+joegOffset,console.log("offset: "+joegOffset+" | Feed: "+feed1),o()}var l,a,n,r,t;o(),document.getElementById("joeg-more").addEventListener("click",s,!1)}(jQuery);
+</script> 

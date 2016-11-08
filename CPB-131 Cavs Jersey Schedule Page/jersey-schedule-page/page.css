@@ -1,0 +1,357 @@
+.individual-page {
+    width: 101%;
+    /*background-color: #EDEDED;*/
+}
+
+.individual-page-header {
+    margin: 10px 0 0;
+    color: #860038;
+}
+
+.ticket-button {
+    padding: 5px 2px;
+    margin: 5px 0 0;
+    display: block;
+    border-radius: 2px;
+}
+
+.ticket-prem {
+    background-color: #323232;
+}
+
+.ticket-prem:hover {
+    border: solid 2px #323232;
+    color: #323232;
+}
+
+.ticket-prem:focus {
+    background-color: #323232;
+    border: solid 2px #323232;
+    color: #FFF;
+}
+
+.single-tix,
+.flash-seats,
+.vip-tix,
+.prem-tix {
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 100;
+}
+
+.btn-story {
+    font-size: 12px;
+    margin-right: 0;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
+.game-block {
+    background: #FFF;
+    margin: 5px;
+    /*min-height: 130px;*/
+}
+
+.ticket-block {
+    margin: 0;
+}
+
+.future-game,
+.past-game {
+    padding: 0;
+}
+
+p.game-opp {
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 118px;
+    text-align: center;
+    text-shadow: 0 0 5px #CCC;
+}
+
+p.date-month {
+    padding: 0;
+    margin: 8px;
+    font-size: 42px;
+    text-align: center;
+    color: #860038;
+    text-shadow: 2px 2px 14px #fff;
+}
+
+p.date-day {
+    padding: 0;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+p.date-dow {
+    padding: 0;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img.img-responsive.team-logo-svg {
+    max-height: 120px;
+}
+
+.buy-jersey {
+    border-bottom: solid 1px #000;
+    margin: 0 0 10px;
+}
+
+.atl {
+    /*background-color: #E13A3E;*/
+    border-right: 2px solid #C4D600;
+    color: #C4D600;
+}
+
+.bos {
+    /*background-color: #008348;*/
+    border-right: 2px solid #BB9753;
+    color: #BB9753;
+}
+
+.bkn {
+    /*background-color: #FFFFFF;*/
+    border-right: 2px solid #061922;
+    color: #061922;
+}
+
+.cha {
+    /*background-color: #1D1160;*/
+    border-right: 2px solid #008CA8;
+    color: #008CA8;
+}
+
+.chi {
+    /*background-color: #FFFFFF;*/
+    border-right: 2px solid #CE1141;
+    color: #CE1141;
+}
+
+.dal {
+    /*background-color: #20385B;*/
+    border-right: 2px solid #007DC5;
+    color: #007DC5;
+}
+
+.den {
+    /*background-color: #4D90CD;*/
+    border-right: 2px solid #FDB927;
+    color: #FDB927;
+}
+
+.det {
+    /*background-color: #ED174C;*/
+    border-right: 2px solid #006BB6;
+    color: #006BB6;
+}
+
+.gsw {
+    /*background-color: #FDB927;*/
+    border-right: 2px solid #006BB6;
+    color: #006BB6;
+}
+
+.hou {
+    /*background-color: #C4CED3;*/
+    border-right: 2px solid #CE1141;
+    color: #CE1141;
+}
+
+.ind {
+    /*background-color: #FFC633;*/
+    border-right: 2px solid #00275D;
+    color: #00275D;
+}
+
+.lac {
+    /*background-color: #006BB6;*/
+    border-right: 2px solid #ED174C;
+    color: #ED174C;
+}
+
+.lal {
+    /*background-color: #552582;*/
+    border-right: 2px solid #FDB927;
+    color: #FDB927;
+}
+
+.mem {
+    /*background-color: #7399C6;*/
+    border-right: 2px solid #FDB927;
+    color: #FDB927;
+}
+
+.mia {
+    /*background-color: #F9A01B;*/
+    border-right: 2px solid #98002E;
+    color: #98002E;
+}
+
+.mil {
+    /*background-color: #F0EBD2;*/
+    border-right: 2px solid #00471B;
+    color: #00471B;
+}
+
+.min {
+    /*background-color: #005083;*/
+    border-right: 2px solid #00A94F;
+    color: #00A94F;
+}
+
+.nop {
+    /*background-color: #002B5C;*/
+    border-right: 2px solid #E31837;
+    color: #E31837;
+}
+
+.nyk {
+    /*background-color: #006BB6;*/
+    border-right: 2px solid #F58426;
+    color: #F58426;
+}
+
+.okc {
+    /*background-color: #007DC3;*/
+    border-right: 2px solid #F05133;
+    color: #F05133;
+}
+
+.orl {
+    /*background-color: #007DC5;*/
+    border-right: 2px solid #061922;
+    color: #061922;
+}
+
+.phi {
+    /*background-color: #ED174C;*/
+    border-right: 2px solid #006BB6;
+    color: #006BB6;
+}
+
+.phx {
+    /*background-color: #E56020;*/
+    border-right: 2px solid #1D1160;
+    color: #1D1160;
+}
+
+.por {
+    /*background-color: #061922;*/
+    border-right: 2px solid #E03A3E;
+    color: #E03A3E;
+}
+
+.sac {
+    /*background-color: #442d60;*/
+    border-right: 2px solid #061922;
+    color: #061922;
+}
+
+.sas {
+    /*background-color: #061922;*/
+    border-right: 2px solid #BAC3C9;
+    color: #BAC3C9;
+}
+
+.tor {
+    /*background-color: #061922;*/
+    border-right: 2px solid #CE1141;
+    color: #CE1141;
+}
+
+.uta {
+    /*background-color: #002B5C;*/
+    border-right: 2px solid #F9A01B;
+    color: #F9A01B;
+}
+
+.was {
+    /*background-color: #E31837;*/
+    border-right: 2px solid #002B5C;
+    color: #002B5C;
+}
+
+.full-toggle {
+    margin: 10px 0 0;
+}
+
+.full-toggle p {
+    float: left;
+    padding: 5px;
+}
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    display: none;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #860038;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

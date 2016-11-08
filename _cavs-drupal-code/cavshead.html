@@ -1,0 +1,1808 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+    window.NREUM || (NREUM = {}), __nr_require = function(t, e, n) {
+        function r(n) {
+            if (!e[n]) {
+                var o = e[n] = {
+                    exports: {}
+                };
+                t[n][0].call(o.exports, function(e) {
+                    var o = t[n][1][e];
+                    return r(o || e)
+                }, o, o.exports)
+            }
+            return e[n].exports
+        }
+        if ("function" == typeof __nr_require) return __nr_require;
+        for (var o = 0; o < n.length; o++) r(n[o]);
+        return r
+    }({
+        1: [function(t, e, n) {
+            function r() {}
+
+            function o(t, e, n) {
+                return function() {
+                    return i(t, [(new Date).getTime()].concat(u(arguments)), e ? null : this, n), e ? void 0 : this
+                }
+            }
+            var i = t("handle"),
+                a = t(2),
+                u = t(3),
+                c = t("ee").get("tracer"),
+                f = NREUM;
+            "undefined" == typeof window.newrelic && (newrelic = f);
+            var s = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit"],
+                p = "api-",
+                l = p + "ixn-";
+            a(s, function(t, e) {
+                f[e] = o(p + e, !0, "api")
+            }), f.addPageAction = o(p + "addPageAction", !0), e.exports = newrelic, f.interaction = function() {
+                return (new r).get()
+            };
+            var d = r.prototype = {
+                createTracer: function(t, e) {
+                    var n = {},
+                        r = this,
+                        o = "function" == typeof e;
+                    return i(l + "tracer", [Date.now(), t, n], r),
+                        function() {
+                            if (c.emit((o ? "" : "no-") + "fn-start", [Date.now(), r, o], n), o) try {
+                                return e.apply(this, arguments)
+                            } finally {
+                                c.emit("fn-end", [Date.now()], n)
+                            }
+                        }
+                }
+            };
+            a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function(t, e) {
+                d[e] = o(l + e)
+            }), newrelic.noticeError = function(t) {
+                "string" == typeof t && (t = new Error(t)), i("err", [t, (new Date).getTime()])
+            }
+        }, {}],
+        2: [function(t, e, n) {
+            function r(t, e) {
+                var n = [],
+                    r = "",
+                    i = 0;
+                for (r in t) o.call(t, r) && (n[i] = e(r, t[r]), i += 1);
+                return n
+            }
+            var o = Object.prototype.hasOwnProperty;
+            e.exports = r
+        }, {}],
+        3: [function(t, e, n) {
+            function r(t, e, n) {
+                e || (e = 0), "undefined" == typeof n && (n = t ? t.length : 0);
+                for (var r = -1, o = n - e || 0, i = Array(o < 0 ? 0 : o); ++r < o;) i[r] = t[e + r];
+                return i
+            }
+            e.exports = r
+        }, {}],
+        ee: [function(t, e, n) {
+            function r() {}
+
+            function o(t) {
+                function e(t) {
+                    return t && t instanceof r ? t : t ? u(t, a, i) : i()
+                }
+
+                function n(n, r, o) {
+                    t && t(n, r, o);
+                    for (var i = e(o), a = l(n), u = a.length, c = 0; c < u; c++) a[c].apply(i, r);
+                    var s = f[m[n]];
+                    return s && s.push([w, n, r, i]), i
+                }
+
+                function p(t, e) {
+                    g[t] = l(t).concat(e)
+                }
+
+                function l(t) {
+                    return g[t] || []
+                }
+
+                function d(t) {
+                    return s[t] = s[t] || o(n)
+                }
+
+                function v(t, e) {
+                    c(t, function(t, n) {
+                        e = e || "feature", m[n] = e, e in f || (f[e] = [])
+                    })
+                }
+                var g = {},
+                    m = {},
+                    w = {
+                        on: p,
+                        emit: n,
+                        get: d,
+                        listeners: l,
+                        context: e,
+                        buffer: v
+                    };
+                return w
+            }
+
+            function i() {
+                return new r
+            }
+            var a = "nr@context",
+                u = t("gos"),
+                c = t(2),
+                f = {},
+                s = {},
+                p = e.exports = o();
+            p.backlog = f
+        }, {}],
+        gos: [function(t, e, n) {
+            function r(t, e, n) {
+                if (o.call(t, e)) return t[e];
+                var r = n();
+                if (Object.defineProperty && Object.keys) try {
+                    return Object.defineProperty(t, e, {
+                        value: r,
+                        writable: !0,
+                        enumerable: !1
+                    }), r
+                } catch (i) {}
+                return t[e] = r, r
+            }
+            var o = Object.prototype.hasOwnProperty;
+            e.exports = r
+        }, {}],
+        handle: [function(t, e, n) {
+            function r(t, e, n, r) {
+                o.buffer([t], r), o.emit(t, e, n)
+            }
+            var o = t("ee").get("handle");
+            e.exports = r, r.ee = o
+        }, {}],
+        id: [function(t, e, n) {
+            function r(t) {
+                var e = typeof t;
+                return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : a(t, i, function() {
+                    return o++
+                })
+            }
+            var o = 1,
+                i = "nr@id",
+                a = t("gos");
+            e.exports = r
+        }, {}],
+        loader: [function(t, e, n) {
+            function r() {
+                if (!h++) {
+                    var t = y.info = NREUM.info,
+                        e = s.getElementsByTagName("script")[0];
+                    if (t && t.licenseKey && t.applicationID && e) {
+                        c(m, function(e, n) {
+                            t[e] || (t[e] = n)
+                        });
+                        var n = "https" === g.split(":")[0] || t.sslForHttp;
+                        y.proto = n ? "https://" : "http://", u("mark", ["onload", a()], null, "api");
+                        var r = s.createElement("script");
+                        r.src = y.proto + t.agent, e.parentNode.insertBefore(r, e)
+                    }
+                }
+            }
+
+            function o() {
+                "complete" === s.readyState && i()
+            }
+
+            function i() {
+                u("mark", ["domContent", a()], null, "api")
+            }
+
+            function a() {
+                return (new Date).getTime()
+            }
+            var u = t("handle"),
+                c = t(2),
+                f = window,
+                s = f.document,
+                p = "addEventListener",
+                l = "attachEvent",
+                d = f.XMLHttpRequest,
+                v = d && d.prototype;
+            NREUM.o = {
+                ST: setTimeout,
+                CT: clearTimeout,
+                XHR: d,
+                REQ: f.Request,
+                EV: f.Event,
+                PR: f.Promise,
+                MO: f.MutationObserver
+            }, t(1);
+            var g = "" + location,
+                m = {
+                    beacon: "bam.nr-data.net",
+                    errorBeacon: "bam.nr-data.net",
+                    agent: "js-agent.newrelic.com/nr-974.min.js"
+                },
+                w = d && v && v[p] && !/CriOS/.test(navigator.userAgent),
+                y = e.exports = {
+                    offset: a(),
+                    origin: g,
+                    features: {},
+                    xhrWrappable: w
+                };
+            s[p] ? (s[p]("DOMContentLoaded", i, !1), f[p]("load", r, !1)) : (s[l]("onreadystatechange", o), f[l]("onload", r)), u("mark", ["firstbyte", a()], null, "api");
+            var h = 0
+        }, {}]
+    }, {}, ["loader"]);
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cavs-favicon_0.ico" type="image/vnd.microsoft.icon" />
+    <meta name="google-site-verification" content="-m3qIUzf7ICSevAkYFs0SNfk_aOb7VvWkOARaQl7_ZI">
+    <meta name="google-site-verification" content="924f19d02fe3f7ba06875f98076c5eee">
+    <meta name="google-site-verification" content="KuJilRdJmYozbIa3CXxFGa6coTpd84PtXH8uTJ2tKmc">
+    <meta name="Pinterest" content="924f19d02fe3f7ba06875f98076c5eee">
+    <meta name="p:domain_verify" content="924f19d02fe3f7ba06875f98076c5eee">
+    <meta property="fb:pages" content="69048043277">
+    <meta name="timestamp" content="1478627907" />
+    <link rel="dns-prefetch" href="//z.cdn.turner.com" />
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="//i.cdn.turner.com" />
+    <meta name="description" content="*/" />
+    <meta name="generator" content="Drupal 7 (http://drupal.org)" />
+    <link rel="canonical" href="http://www.nba.com/cavaliers/broadcast/tv" />
+    <link rel="shortlink" href="http://www.nba.com/cavaliers/node/26119" />
+    <meta property="og:site_name" content="Cleveland Cavaliers" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.nba.com/cavaliers/broadcast/tv" />
+    <meta property="og:title" content="Broadcast" />
+    <meta property="og:description" content="*/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="http://www.nba.com/cavaliers/broadcast/tv" />
+    <meta name="twitter:title" content="Broadcast" />
+    <meta name="twitter:description" content="*/" />
+    <title>Broadcast | Cleveland Cavaliers</title>
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_2dryjhYQkHmjIJ8LzvHLSXfIxMK6c2H9426oaUUOFE0.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_GHTkqLvgTlPaxUOFB-S3ZM_N7iiRIURCbTEKppsyGdE.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_dp2wE2IJmknl5tHR9orumkK9knqFPi4QspPN3nk2twc.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_hkm2r201F-LcXMlFn31J1FUV16aJd5NvBwkF3Fb_z7o.css" media="all" />
+    <!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_WH8xDQ3FUR-MtH5OUhyz7vZrr4dpBQAcbwmQjGLrLlk_ie8_fallback.css.css" media="all" />
+<![endif]-->
+    <!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU_ie7_fallback.css.css" media="all" />
+<![endif]-->
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_5tu8rtLhpyBZ87xWH0rov7dDXemT42thA_57B-sV1I8_bootstrap.css.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_LAS_HOsj7yF5fDs3Rtdno82HRc2CQpm1HM3dyyIb8ew_screen.css.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_T-TZfTydUwB664EEKJHDcuk7jy4tISCzGTq3m7vhy9Q.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_PHbs6_oqk9A7fJs38zynVmAPAFWXwcAcsA4ChCwy2O8.css" media="print" />
+    <!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_1M_dAaLUNCqkt_l4AlgYni5g3GS9_j-NOnBsdXRiPak_panopoly-fonts-ie-open-sans.css.css" media="all" />
+<![endif]-->
+    <!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_kWdDncJzpTvKUFxsgy5NIdRMiEJSRw-n-ksJseEGsAM_panopoly-fonts-ie-open-sans-bold.css.css" media="all" />
+<![endif]-->
+    <!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_wpJ_jQ4OKZrC9ClXMYTyRLmIpXAsulpUZGQsvLxGz6w_panopoly-fonts-ie-open-sans-italic.css.css" media="all" />
+<![endif]-->
+    <!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_bcWodztSiHOo9ut5CTye-Q8mmEKRWc5zyXSDBRV5rQw_panopoly-fonts-ie-open-sans-bold-italic.css.css" media="all" />
+<![endif]-->
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/colorizer/etowah_radix-b35d7c19.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cdn/css/http/css_KLRhB-vZ09vk9MikXvZeKG_ZD5mLwJdDaSnFywTGtaA_style_sitewide_overrides.css.css" media="all" />
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_sOTmJnDhZ0YaYTQBr9FPewnH0WbS6pH--oA8_JDPY0w.js"></script>
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    var jQuery1111 = jQuery.noConflict();
+    var jQuery111 = jQuery1111;
+    //--><!]]>
+    </script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+    <script type="text/javascript" src="http://www.nba.com/javascriptGlobalSettings.js.html"></script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_IVj0DJCZWpxON6H3LXd3NCtv54dI61REA6UL5eEn6ug.js"></script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_DAQUBbPgZLLf-qeiwAO4Efdio5tQcxbY1sl0_cib6Qw.js"></script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_6VorD-zqzpjsMb6h9DN3jlGGuCWxhO_AdBZ_QfQPi3c.js"></script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_QPZb_rs3exds0Ke8dNLyW6Yr5lMLGJTS3Yp5SRTPP6A.js"></script>
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    var turner_metadata = {
+        teamPageType: "custom",
+        turnerId: "aa41822-1193725393-1389694715530-1",
+        entity: "nba:team:cavaliers",
+        analyticsVersion: "2.0",
+        appName: "app:nba - desktop",
+        registrationState: "not signed in",
+        page: "nba:team:cavaliers:custompage:Broadcast",
+        section: "nba:team:cavaliers:custompage",
+        subsection: "cavaliers:custompage",
+        eventPageView: "1",
+        offsiteSource: "Team Site"
+    };
+    //--><!]]>
+    </script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_pDN6qMIpn-Di_WXbhsyM90em4GOgb04IEngw5IX_4gs.js"></script>
+    <script type="text/javascript" src="//nexus.ensighten.com/turner/nba-prod/Bootstrap.js"></script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/sitewide_overrides/active/etowah_swo_129023/header_sitewide_overrides.js?ogc37h"></script>
+    <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/default/files/js/js_cJm9LdCwmPAu2B2m_sYaE_zfjMGhWlX9dPuMXylJwY0.js"></script>
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    jQuery.extend(Drupal.settings, {
+        "basePath": "\/cavaliers\/",
+        "pathPrefix": "",
+        "ajaxPageState": {
+            "theme": "etowah_radix",
+            "theme_token": "2BWoZnaWEyzeQkLnqpjphx8VtcsCj6qB_Gs3hyutW3k",
+            "jquery_version": "1.7",
+            "js": {
+                "sites\/all\/modules\/custom\/etowah_analytics\/js\/pkgTeamSites-min.js": 1,
+                "http:\/\/z.cdn.turner.com\/nba\/tmpl_asset\/static\/nba-cms3-base\/latest\/js\/pkgCustomLibs-min.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/vendor\/bootstrap.min.js": 1,
+                "sites\/all\/modules\/custom\/etowah_analytics\/js\/etowah_analytics.overrides.js": 1,
+                "sites\/all\/modules\/custom\/etowah_story\/modules\/etowah_janrain\/js\/utils.js": 1,
+                "http:\/\/origin.nba.com\/.element\/media\/2.0\/teamsites\/cavaliers\/janrain\/prod\/settings-federated.js": 1,
+                "\/\/d6uon097akywu.cloudfront.net\/ark-woj-min.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/easy-menu.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/menu-consume.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/custom-script.js": 1,
+                "sites\/all\/modules\/custom\/etowah_marketing\/js\/etowah_marketing_googletag_config.js": 1,
+                "http:\/\/z.cdn.turner.com\/drp\/nba\/cavaliers\/sites\/default\/files\/sitewide_overrides\/active\/etowah_swo_129023\/footer_sitewide_overrides.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/vendor\/jquery-1.11.1.min.js": 1,
+                "0": 1,
+                "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js": 1,
+                "misc\/jquery.once.js": 1,
+                "misc\/drupal.js": 1,
+                "http:\/\/www.nba.com\/javascriptGlobalSettings.js.html": 1,
+                "sites\/all\/libraries\/handlebars\/handlebars.min.js": 1,
+                "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js": 1,
+                "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js": 1,
+                "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js": 1,
+                "sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js": 1,
+                "sites\/all\/modules\/contrib\/splashify\/js\/jquery.json-2.3.min.js": 1,
+                "sites\/all\/libraries\/jstorage\/jstorage.min.js": 1,
+                "misc\/ajax.js": 1,
+                "sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js": 1,
+                "sites\/all\/libraries\/magnific_popup\/dist\/jquery.magnific-popup.js": 1,
+                "sites\/all\/modules\/custom\/etowah_analytics\/js\/_nba.setvars.js": 1,
+                "sites\/all\/modules\/custom\/etowah_video\/modules\/etowah_playlist\/js\/playlist-list.js": 1,
+                "sites\/all\/modules\/custom\/etowah_search\/js\/libraries\/typeahead.jquery.min.js": 1,
+                "sites\/all\/modules\/custom\/etowah_search\/js\/libraries\/fuse.min.js": 1,
+                "sites\/all\/modules\/custom\/etowah_search\/js\/nbaSearch.typeahead.js": 1,
+                "sites\/all\/modules\/contrib\/menu_attach_block\/menu_attach_block.js": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_admin\/panopoly-admin.js": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_magic\/panopoly-magic.js": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_theme\/js\/panopoly-accordion.js": 1,
+                "sites\/all\/modules\/custom\/etowah_video\/modules\/video_channels\/js\/channel-menu.js": 1,
+                "sites\/all\/modules\/custom\/etowah_core\/js\/etowah_core_twitter_popup.js": 1,
+                "sites\/all\/modules\/contrib\/caption_filter\/js\/caption-filter.js": 1,
+                "sites\/all\/modules\/custom\/etowah_tvci\/js\/etowah_tvci.js": 1,
+                "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1,
+                "sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js": 1,
+                "sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js": 1,
+                "sites\/all\/libraries\/tablesorter\/js\/jquery.tablesorter.min.js": 1,
+                "sites\/all\/modules\/contrib\/panels\/js\/panels.js": 1,
+                "sites\/all\/modules\/custom\/etowah_core\/js\/etowah_core_set_global_variables.js": 1,
+                "sites\/all\/modules\/custom\/etowah_core\/js\/etowah_core_livestream.js": 1,
+                "misc\/progress.js": 1,
+                "sites\/all\/modules\/custom\/etowah_audio\/js\/etowah-audio.js": 1,
+                "sites\/all\/modules\/custom\/etowah_core\/js\/etowah_core_datalayer.js": 1,
+                "sites\/all\/modules\/custom\/etowah_core\/js\/timeEntryForm.js": 1,
+                "1": 1,
+                "sites\/all\/modules\/custom\/etowah_marketing\/js\/etowah_marketing_googletag.js": 1,
+                "\/\/nexus.ensighten.com\/turner\/nba-prod\/Bootstrap.js": 1,
+                "http:\/\/z.cdn.turner.com\/drp\/nba\/cavaliers\/sites\/default\/files\/sitewide_overrides\/active\/etowah_swo_129023\/header_sitewide_overrides.js": 1,
+                "sites\/all\/themes\/radix\/assets\/javascripts\/modernizr-2.6.1.min.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/radix-script.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/vendor\/modernizr.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/vendor\/imagesloaded.pkgd.min.js": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/javascripts\/vendor\/jquery.freetile.min.js": 1
+            },
+            "css": {
+                "modules\/system\/system.base.css": 1,
+                "modules\/system\/system.messages.css": 1,
+                "modules\/system\/system.theme.css": 1,
+                "misc\/ui\/jquery.ui.core.css": 1,
+                "misc\/ui\/jquery.ui.theme.css": 1,
+                "misc\/ui\/jquery.ui.tabs.css": 1,
+                "misc\/ui\/jquery.ui.accordion.css": 1,
+                "sites\/all\/modules\/contrib\/ldap\/ldap_user\/ldap_user.css": 1,
+                "sites\/all\/modules\/contrib\/date\/date_api\/date.css": 1,
+                "sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css": 1,
+                "sites\/all\/modules\/custom\/etowah_social\/css\/etowah_social.css": 1,
+                "sites\/all\/modules\/custom\/etowah_stats\/css\/tablesorter_custom.css": 1,
+                "modules\/field\/theme\/field.css": 1,
+                "sites\/all\/modules\/contrib\/menu_attach_block\/menu_attach_block.css": 1,
+                "modules\/node\/node.css": 1,
+                "sites\/all\/modules\/contrib\/panels_mini_ipe\/panels-mini-ipe.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_core\/css\/panopoly-dropbutton.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_magic\/css\/panopoly-magic.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_magic\/css\/panopoly-modal.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_theme\/css\/panopoly-featured.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_theme\/css\/panopoly-accordian.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_wysiwyg\/panopoly-wysiwyg.css": 1,
+                "modules\/search\/search.css": 1,
+                "modules\/user\/user.css": 1,
+                "sites\/all\/modules\/contrib\/views\/css\/views.css": 1,
+                "sites\/all\/modules\/custom\/etowah_core\/etowah_core_layouts.css": 1,
+                "sites\/all\/modules\/contrib\/caption_filter\/caption-filter.css": 1,
+                "sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css": 1,
+                "sites\/all\/modules\/contrib\/ctools\/css\/ctools.css": 1,
+                "sites\/all\/libraries\/tablesorter\/css\/theme.default.css": 1,
+                "sites\/all\/modules\/contrib\/ldap\/ldap_servers\/ldap_servers.admin.css": 1,
+                "sites\/all\/modules\/contrib\/panels\/css\/panels.css": 1,
+                "sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css": 1,
+                "sites\/all\/modules\/custom\/etowah_photo_gallery\/css\/admin.css": 1,
+                "public:\/\/ctools\/css\/785e6434801812e31efc64acd43042a4.css": 1,
+                "sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/stylesheets\/ie8_fallback.css": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/stylesheets\/ie7_fallback.css": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/stylesheets\/bootstrap.css": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/stylesheets\/screen.css": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/stylesheets\/vendor\/normalize.css": 1,
+                "sites\/all\/themes\/etowah_radix\/assets\/stylesheets\/print.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-italic.css": 1,
+                "sites\/all\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold-italic.css": 1,
+                "http:\/\/z.cdn.turner.com\/drp\/nba\/cavaliers\/sites\/default\/files\/colorizer\/etowah_radix-b35d7c19.css": 1,
+                "http:\/\/z.cdn.turner.com\/drp\/nba\/cavaliers\/sites\/default\/files\/sitewide_overrides\/active\/etowah_swo_129023\/style_sitewide_overrides.css": 1
+            }
+        },
+        "colorbox": {
+            "opacity": "0.85",
+            "current": "{current} of {total}",
+            "previous": "\u00ab Prev",
+            "next": "Next \u00bb",
+            "close": "Close",
+            "maxWidth": "98%",
+            "maxHeight": "98%",
+            "fixed": true,
+            "mobiledetect": true,
+            "mobiledevicewidth": "480px"
+        },
+        "CToolsModal": {
+            "modalSize": {
+                "type": "scale",
+                "width": ".9",
+                "height": ".9",
+                "addWidth": 0,
+                "addHeight": 0,
+                "contentRight": 25,
+                "contentBottom": 75
+            },
+            "modalOptions": {
+                "opacity": ".55",
+                "background-color": "#FFF"
+            },
+            "animationSpeed": "fast",
+            "modalTheme": "CToolsModalDialog",
+            "throbberTheme": "CToolsModalThrobber"
+        },
+        "team": {
+            "ID": 1610612739,
+            "CITY": "Cleveland",
+            "NAME": "Cavaliers",
+            "ABBREV": "CLE",
+            "COLOR": "0x997D4D",
+            "CODE": "cavaliers",
+            "VANITY_URL": "Cavs.com",
+            "players": ["Andersen, Chris", "Dunleavy, Mike", "Frye, Channing", "Felder, Kay", "Irving, Kyrie", "Jefferson, Richard", "Jones, James", "James, LeBron", "Love, Kevin", "Liggins, DeAndre", "McRae, Jordan", "Shumpert, Iman", "Smith, JR", "Thompson, Tristan", "Williams, Mo"],
+            "coaches": ["Boylan, Jim", "Drew, Larry", "Handy, Phil", "Lue, Tyronn", "Longabardi, Mike", "Posey, James"]
+        },
+        "today": {
+            "calendar_date": 20161108,
+            "season_year": 2016,
+            "stats_season_year": 2016,
+            "stats_season_id": 22016,
+            "stats_season_stage": 2,
+            "roster_season_year": 2016,
+            "schedule_season_year": 2016,
+            "standings_season_year": 2016,
+            "season_id": 22016,
+            "display_year": "2016-17",
+            "display_season": "Regular Season",
+            "season_stage": 2,
+            "date_time": "20161108 0645",
+            "sys_year": "2016",
+            "sys_month": "11",
+            "sys_day": "08",
+            "sys_time": "0645",
+            "timezone_offset": "-05"
+        },
+        "environment": "PROD",
+        "base_url": "http:\/\/www.nba.com\/cavaliers",
+        "promos": {
+            "div-gpt-ad-846c1293-c062-11e3-8a33-0800200c9a66": {
+                "ad_pos2": "",
+                "section": "custom_pages",
+                "ad_pos1": "top_left",
+                "div_id": "div-gpt-ad-846c1293-c062-11e3-8a33-0800200c9a66"
+            },
+            "div-gpt-ad-846c1290-c062-11e3-8a33-0800200c9a66": {
+                "ad_pos2": "",
+                "section": "custom_pages",
+                "ad_pos1": "bottom_left",
+                "div_id": "div-gpt-ad-846c1290-c062-11e3-8a33-0800200c9a66"
+            }
+        },
+        "errorPage": false,
+        "marketing": {
+            "settings": {
+                "team": "cavaliers",
+                "network_code": 2117,
+                "marketing_section": "custom_pages",
+                "adtags": [{
+                    "tag": "cavaliers_desktop_1024px\/custom_pages_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/custom_pages_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/custom_pages_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/custom_pages_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/custom_pages_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/custom_pages_right_rail_over-ride_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/custom_pages_right_rail_over-ride_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/custom_pages_right_rail_over-ride_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/custom_pages_right_rail_over-ride_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/custom_pages_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/custom_pages_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/custom_pages_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/custom_pages_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/custom_pages_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_footer_180x120_pos1",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_footer_180x120_pos2",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_footer_180x120_pos3",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_footer_180x120_pos4",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_footer_180x120_pos5",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_footer_180x120_pos6",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_footer_180x120_pos1",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_footer_180x120_pos2",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_footer_180x120_pos3",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_footer_180x120_pos4",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_footer_180x120_pos5",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_footer_180x120_pos6",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_footer_180x120_pos1",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_footer_180x120_pos2",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_footer_180x120_pos3",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_footer_180x120_pos4",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_footer_180x120_pos5",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_footer_180x120_pos6",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_footer_180x120_pos1",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_footer_180x120_pos2",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_footer_180x120_pos3",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_footer_180x120_pos4",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_footer_180x120_pos5",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_footer_180x120_pos6",
+                    "size": "180x120"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_1st_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_2nd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_1st_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_2nd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_3rd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_4th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_5th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_6th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_7th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_8th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_3rd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_4th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_5th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_6th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_7th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_sub_nav_240x90_8th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_1st_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_1st_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_2nd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_3rd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_4th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_5th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_6th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_7th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_8th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_2nd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_3rd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_4th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_5th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_6th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_7th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_sub_nav_240x90_8th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_1st_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_2nd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_3rd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_4th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_5th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_6th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_7th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_8th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_1st_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_2nd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_3rd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_4th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_5th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_6th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_7th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_sub_nav_240x90_8th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_1st_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_2nd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_3rd_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_4th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_5th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_6th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_7th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_8th_pos1",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_1st_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_2nd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_3rd_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_4th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_5th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_6th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_7th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/global_sub_nav_240x90_8th_pos2",
+                    "size": "240x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_pencil_ad_1180x50_collapsed",
+                    "size": "1180x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/global_pencil_ad_1180x440_expanded",
+                    "size": "1180x440"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_pencil_ad_768x280_expanded",
+                    "size": "768x280"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/global_pencil_ad_768x50_collapsed",
+                    "size": "768x50"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_pencil_ad_640x50_collapsed",
+                    "size": "640x50"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/global_pencil_ad_640x240_expanded",
+                    "size": "640x240"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/homepage_content_stream_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/homepage_content_stream_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/homepage_content_stream_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/homepage_content_stream_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/homepage_game_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/homepage_game_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/homepage_game_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/homepage_game_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/homepage_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/homepage_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/homepage_middle_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/homepage_middle_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/homepage_news_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/homepage_news_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/homepage_news_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/homepage_news_block_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/homepage_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/homepage_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/homepage_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/homepage_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_video_desktop_1024px\/homepage_768x432",
+                    "size": "768x432"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/schedule_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/schedule_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/schedule_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/schedule_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/schedule_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/schedule_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/schedule_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/schedule_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/roster_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/roster_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/roster_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/roster_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/roster_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/roster_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/roster_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/roster_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/leaders_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/leaders_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/leaders_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/leaders_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/leaders_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/leaders_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/leaders_middle_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/leaders_middle_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/leaders_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/leaders_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/leaders_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/leaders_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/team_stats_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/team_stats_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/team_stats_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/team_stats_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/team_stats_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/team_stats_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/team_stats_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/team_stats_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/player_stats_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/player_stats_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/player_stats_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/player_stats_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/player_stats_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/player_stats_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/player_stats_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/player_stats_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/tickets_main_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/tickets_main_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/tickets_main_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/tickets_main_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/tickets_main_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/tickets_main_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/tickets_main_middle_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/tickets_main_middle_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/tickets_main_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/tickets_main_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/tickets_main_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/tickets_main_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/news_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/news_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/news_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/news_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/news_middle_1st_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/news_middle_1st_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/news_middle_1st_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/news_middle_1st_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/news_middle_2nd_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/news_middle_2nd_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/news_middle_2nd_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/news_middle_2nd_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/news_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/news_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/news_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/news_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/story_article_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/story_article_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/story_article_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/story_article_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/story_article_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/story_article_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/story_article_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/story_article_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/story_article_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/story_article_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/tag_archive_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/tag_archive_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/tag_archive_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/tag_archive_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/tag_archive_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/tag_archive_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/tag_archive_middle_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/tag_archive_middle_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/tag_archive_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/tag_archive_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/tag_archive_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/tag_archive_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/image_gallery_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_middle_1st_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_middle_1st_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_middle_1st_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/image_gallery_middle_1st_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_middle_2nd_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_middle_2nd_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_middle_2nd_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/image_gallery_middle_2nd_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_top_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/image_gallery_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_details_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_details_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_details_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_details_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_details_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_details_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/image_gallery_details_right_interstitial_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/image_gallery_details_right_interstitial_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/image_gallery_details_right_interstitial_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/image_gallery_details_right_interstitial_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/video_pages_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/video_pages_bottom_left_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/video_pages_bottom_left_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/video_pages_bottom_left_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/video_pages_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/video_pages_middle_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/video_pages_middle_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/video_pages_middle_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/story_article_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/story_article_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/homepage_background_1x1",
+                    "size": "1x1"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/kia_confirmation_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/kia_confirmation_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/kia_confirmation_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/kia_confirmation_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/kia_confirmation_bottom_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/kia_confirmation_bottom_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/kia_confirmation_bottom_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/kia_confirmation_bottom_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/sherwin_community_sponsorship_top_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/sherwin_community_sponsorship_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/sherwin_community_sponsorship_top_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/sherwin_community_sponsorship_top_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/sherwin_community_sponsorship_bottom_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/sherwin_community_sponsorship_bottom_728x90",
+                    "size": "728x90"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/sherwin_community_sponsorship_bottom_468x60",
+                    "size": "468x60"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/sherwin_community_sponsorship_bottom_320x50",
+                    "size": "320x50"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/sherwin_community_sponsorship_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/sherwin_community_sponsorship_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/sherwin_community_sponsorship_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/sherwin_community_sponsorship_right_top_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_desktop_1024px\/sherwin_community_sponsorship_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_768px\/sherwin_community_sponsorship_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_tablet_640px\/sherwin_community_sponsorship_right_bottom_300x250",
+                    "size": "300x250"
+                }, {
+                    "tag": "cavaliers_mobile_320px\/sherwin_community_sponsorship_right_bottom_300x250",
+                    "size": "300x250"
+                }]
+            }
+        },
+        "janrainComments": {
+            "disableJQueryUI": false,
+            "pageUrl": "http:\/\/www.nba.com\/cavaliers\/broadcast\/tv"
+        }
+    });
+    //--><!]]>
+    </script>
+    <!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+   <link id="respond-proxy" rel="respond-proxy" href="http://i.cdn.turner.com/drp/nba/nba/nba/.element/media/2.0/teamsites/all/respond-proxy.xhtml" />
+<link id="respond-proxy" rel="respond-proxy" href="http://z.cdn.turner.com/drp/nba/nba/nba/.element/media/2.0/teamsites/all/respond-proxy.xhtml" />
+<link id="respond-redirect" rel="respond-redirect" href="http://www.nba.com/cavaliers/sites/all/themes/etowah_radix/assets/javascripts/vendor/respondjs/cross-domain/respond.proxy.gif" />
+   <script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/all/themes/etowah_radix/assets/javascripts/vendor/respondjs/cross-domain/respond.proxy.min.js" />
+<script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/all/themes/etowah_radix/assets/javascripts/vendor/respondjs/src/respond.min.js" />
+<script type="text/javascript" src="http://z.cdn.turner.com/drp/nba/cavaliers/sites/all/themes/etowah_radix/assets/javascripts/vendor/selectivizr-min.js" />
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-26119 node-type-page region-content">
+    <div id="skip-link">
+        <a tabindex="1" href="#content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    <header class="header" role="header">
+        <nav class="global-nav-wrapper">
+            <div class="container">
+                <!--Top of the page navigation and NBA logo -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="utility-logo">
+                            <a tabindex="1" href="http://www.nba.com"><span class="element-invisible">NBA</span></a>
+                        </div>
+                        <ul class="global-nav">
+                            <li class="global-nav__menu-item"><a tabindex="1" href="http://www.nba.com/global/" class="teamNavGlobal global-nav__hidden-xs" title="Link to NBA Global">Global</a></li>
+                            <li class="global-nav__menu-item expanded has-dropdown">
+                                <a tabindex="1" href="javascript:void(0)" id="global-nav__menu-item__teams-link">Teams</a>
+                                <ul class="global-nav__menu-item__sub-menu" id="global-nav__menu-item__teams-link-dropdown">
+                                    <li><a class="global-nav__menu-item__sub-menu__sub-item" href="http://www.nba.com/teams/" title="Link to NBA Teams">Teams</a></li>
+                                    <li class="teamHDR">Team Sites</li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/hawks/" title="Link to Atlanta Hawks Team Site">Atlanta</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/heat/" title="Link to Miami Heat Team Site">Miami</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/celtics/" title="Link to Boston Celtics Team Site">Boston</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/bucks/" title="Link to Milwaukee Bucks Team Site">Milwaukee</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/nets/" title="Link to Brooklyn Nets Team Site">Brooklyn</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/timberwolves/" title="Link to Minnesota Timberwolves Team Site">Minnesota</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/hornets/" title="Link to Charlotte Hornets Team Site">Charlotte</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/pelicans/" title="Link to New Orleans Pelicans Team Site">New Orleans</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/bulls/" title="Link to Chicago Bulls Team Site">Chicago</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/knicks/" title="Link to New York Knicks Team Site">New York</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/cavaliers/" title="Link to Cleveland Cavaliers Team Site">Cleveland</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/thunder/" title="Link to Oklahoma City Thunder Team Site">Oklahoma City</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/mavericks/" title="Link to Dallas Mavericks Team Site">Dallas</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/magic/" title="Link to Orlando Magic Team Site">Orlando</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/nuggets/" title="Link to Denver Nuggets Team Site">Denver</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/sixers/" title="Link to Philadelphia 76ers Team Site">Philadelphia</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/pistons/" title="Link to Detroit Pistons Team Site">Detroit</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/suns/" title="Link to Phoenix Suns Team Site">Phoenix</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/warriors/" title="Link to Golden State Warriors Team Site">Golden State</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/blazers/" title="Link to Portland Blazers Team Site">Portland</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/rockets/" title="Link to Houston Rockets Team Site">Houston</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/kings/" title="Link to Sacramento Kings Team Site">Sacramento</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/pacers/" title="Link to Indiana Pacers Team Site">Indiana</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/spurs/" title="Link to San Antonio Spurs Team Site">San Antonio</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/clippers/" title="Link to LA Clippers Team Site">LA Clippers</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/raptors/" title="Link to Toronto Raptors Team Site">Toronto</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/lakers/" title="Link to LA Lakers Team Site">LA Lakers</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/jazz/" title="Link to Utah Jazz Team Site">Utah</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/grizzlies/" title="Link to Memphis Grizzlies Team Site">Memphis</a></li>
+                                    <li><a tabindex="1" class="global-nav__menu-item__sub-menu__sub-item" href="/wizards/" title="Link to Washington Wizards Team Site">Washington</a></li>
+                                </ul>
+                            </li>
+                            <li class="global-nav__menu-item global-nav__hidden-xs"><a tabindex="1" href="http://www.nba.com/dleague/" title="Link to D-League">D-League</a></li>
+                            <li class="global-nav__menu-item global-nav__hidden-xs"><a tabindex="1" href="http://www.wnba.com" title="Link to WNBA" class="teamNavWNBA">WNBA</a></li>
+                            <li class="global-nav__menu-item"><a tabindex="1" href="http://www.nba.com/global/storelinkhandler.html" class="teamNavStore" title="Link to NBA Store">NBA Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="main">
+        <div id="page" class="page">
+            <header>
+                <nav class="main-nav-wrapper">
+                    <div class="main-nav-wrapper-inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- Site Logo -->
+                                    <div class="navbar-brand-wrapper">
+                                        <a tabindex="1" href="/cavaliers/" id="logo" class="navbar-brand" title="Home" rel="home">
+                                            <img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/logo/public/2015-16-web-bg_1.jpg?itok=m6u5ORyR" width="" height="" alt="Site Logo" title="Site Logo" /> <span class="element-invisible">Cleveland Cavaliers</span>
+                                        </a>
+                                    </div>
+                                    <!-- Presented by Advertisement -->
+                                    <div class="presented-by presented-by--header">
+                                        <div class="region region-promo-region">
+                                            <div id="block-bean-presented-by-promo" class="block block-bean">
+                                                <div class="content">
+                                                    <a tabindex="1" href="http://www.mountaindew.com/" target="_blank">
+                                                        <img class="block__img" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/presented_by/public/charged-by-mountain-dew2.png?itok=L1bKYsvv" alt="Main Navbar Presented By" title="Main Navbar Presented By" /></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Main Navigation for Users -->
+                                    <div class="mobile-menu-hamburger">
+                                        <a href="javascript:;"></a>
+                                    </div>
+                                    <ul id="main-menu" class="main-nav left">
+                                        <li class="visible-xs mobile-menu-top">Menu</li>
+                                        <li class="first expanded main-nav__menu-item has-dropdown" title="Team Information"><a href="/cavaliers/roster" title="Team Information">Team</a>
+                                            <div class='button-primary__arrow button-primary__arrow--down button-primary__arrow--mobile-nav'></div>
+                                            <ul class="dropdown cols-4 blocks-1">
+                                                <li class="dropdown-row">
+                                                    <ul>
+                                                        <li class="first leaf" title=""><a href="/cavaliers/roster" title="">Roster</a></li>
+                                                        <li class="leaf" title=""><a href="/cavaliers/news" title="">Latest News</a></li>
+                                                        <li class="leaf"><a href="/cavaliers/standings">Stats &amp; Standings</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf"><a href="/cavaliers/team/notes">Game Notes</a></li>
+                                                        <li class="leaf"><a href="/cavaliers/team/guide">Media Guide</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/dleague/canton" title="">Canton Charge</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf"><a href="/cavaliers/team/executives">Executive Bios</a></li>
+                                                        <li class="leaf" title=""><a href="/cavaliers/contact" title="">Contact Us / Great Ideas</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.theqarena.com/jobs" title="">Job Opportunities</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row block">
+                                                    <ul>
+                                                        <li class="last leaf" title="">
+                                                            <div class="menu-attach-block-wrapper orientation-horizontal">
+                                                                <div id="block-bean-rustolem" class="block block-bean">
+                                                                    <h2>Presented by Rust-Oleum</h2>
+                                                                    <div class="content">
+                                                                        <div class="menu-block">
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link"><img class="block__img" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/large/public/chlakboard_240x90.jpg?itok=62-nF25o" width="100%" alt="Presented by Rust-Oleum" title="Presented by Rust-Oleum" /></a>
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link menu-block__link--title">Presented by Rust-Oleum</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="expanded main-nav__menu-item has-dropdown" title=""><a href="/cavaliers/tickets" title="">Tickets</a>
+                                            <div class='button-primary__arrow button-primary__arrow--down button-primary__arrow--mobile-nav'></div>
+                                            <ul class="dropdown cols-4 blocks-1">
+                                                <li class="dropdown-row">
+                                                    <ul>
+                                                        <li class="first leaf" title=""><a href="http://www.nba.com/cavaliers/tickets/individual" title="">Single Game Tickets</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/united/enroll" title="">Enroll in a WGU Membership</a></li>
+                                                        <li class="leaf" title=""><a href="http://united.cavs.com" title="">Wine &amp; Gold United Members</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf"><a href="/cavaliers/tickets/groups">Group Tickets</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/premium" title="">Premium Options</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.seats3d.com/nba/cleveland_cavaliers/" title="">3D Seat Viewer</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf" target="_blank" title=""><a href="http://www.theqarena.com/plan-your-visit/directions" target="_blank" title="">Directions / Parking</a></li>
+                                                        <li class="leaf" title="" target="_blank"><a href="http://www.theqarena.com/events" title="" target="_blank">Events at The Q</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.theqarena.com/tickets/accessibility" title="">Accessibility Info</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row block">
+                                                    <ul>
+                                                        <li class="last leaf" title="">
+                                                            <div class="menu-attach-block-wrapper orientation-vertical">
+                                                                <div id="block-bean-navigation-tickets-promo" class="block block-bean">
+                                                                    <h2>presented by Discount Drug Mart</h2>
+                                                                    <div class="content">
+                                                                        <div class="menu-block">
+                                                                            <a href="http://discount-drugmart.com/" title="presented by Discount Drug Mart" class="menu-block__link"><img class="block__img" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/large/public/ddm-navigation-160530-240x90.png?itok=hFXdOYNX" width="100%" alt="presented by Discount Drug Mart" title="presented by Discount Drug Mart" /></a>
+                                                                            <a href="http://discount-drugmart.com/" title="presented by Discount Drug Mart" class="menu-block__link menu-block__link--title">presented by Discount Drug Mart</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="expanded main-nav__menu-item has-dropdown"><a href="/cavaliers/schedule">Schedule</a>
+                                            <div class='button-primary__arrow button-primary__arrow--down button-primary__arrow--mobile-nav'></div>
+                                            <ul class="dropdown cols-4 blocks-1">
+                                                <li class="dropdown-row">
+                                                    <ul>
+                                                        <li class="first leaf" title=""><a href="http://www.nba.com/cavaliers/tickets/individual" title="">Giveaways / Promotions</a></li>
+                                                        <li class="leaf" title=""><a href="http://calendar.cavs.com/global/schedule?utm_source=cavs&amp;utm_medium=link&amp;utm_campaign=cavs-dropdown" title="">Add to Calendar</a></li>
+                                                        <li class="leaf" title="" target="_blank"><a href="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/2016-17-cavaliers-printable-schedule.pdf" title="" target="_blank">Printable Version</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf" title="" target="_blank"><a href="http://www.foxsports.com/ohio" title="" target="_blank">FOX Sports Ohio</a></li>
+                                                        <li class="leaf" title="" target="_blank"><a href="http://www.foxsports.com/foxsportsgo/" title="" target="_blank">FOX Sports GO</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/2016-17-jersey-schedule" title="">Jersey Schedule</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/CavsHQ" title="">CavsHQ</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row block">
+                                                    <ul>
+                                                        <li class="last leaf" title="">
+                                                            <div class="menu-attach-block-wrapper orientation-horizontal">
+                                                                <div id="block-bean-rustolem--2" class="block block-bean">
+                                                                    <h2>Presented by Rust-Oleum</h2>
+                                                                    <div class="content">
+                                                                        <div class="menu-block">
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link"><img class="block__img" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/large/public/chlakboard_240x90.jpg?itok=62-nF25o" width="100%" alt="Presented by Rust-Oleum" title="Presented by Rust-Oleum" /></a>
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link menu-block__link--title">Presented by Rust-Oleum</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="leaf main-nav__menu-item"><a href="/cavaliers/video">Video</a></li>
+                                        <li class="expanded main-nav__menu-item has-dropdown" title="Cavaliers Team Shop"><a href="http://www.cavaliersteamshop.com/?utm_source=cavs&amp;utm_medium=link&amp;utm_campaign=cavs_nav" title="Cavaliers Team Shop">Shop</a>
+                                            <div class='button-primary__arrow button-primary__arrow--down button-primary__arrow--mobile-nav'></div>
+                                            <ul class="dropdown cols-1 blocks-0">
+                                                <li class="dropdown-row">
+                                                    <ul>
+                                                        <li class="first leaf" target="_blank" title=""><a href="https://www.cavaliersteamshop.com/championship-collection/rings" target="_blank" title="">Championship Rings</a></li>
+                                                        <li class="leaf" target="_blank" title=""><a href="https://www.cavaliersteamshop.com/championship-collection?utm_source=cavs&amp;utm_medium=link&amp;utm_campaign=cavs_nav" target="_blank" title="">Championship Collection</a></li>
+                                                        <li class="last leaf" target="_blank" title=""><a href="https://www.cavaliersteamshop.com/?utm_source=cavs&amp;utm_medium=link&amp;utm_campaign=cavs_nav" target="_blank" title="">Cavaliers Team Shop</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="leaf main-nav__menu-item" title="Cavaliers Memberships"><a href="http://cavsmemberships.com/" title="Cavaliers Memberships">Memberships</a></li>
+                                        <li class="expanded main-nav__menu-item has-dropdown"><a href="/cavaliers/entertainment">Fans</a>
+                                            <div class='button-primary__arrow button-primary__arrow--down button-primary__arrow--mobile-nav'></div>
+                                            <ul class="dropdown cols-4 blocks-1">
+                                                <li class="dropdown-row">
+                                                    <ul>
+                                                        <li class="first leaf"><a href="/cavaliers/contests">Contests / Promotions</a></li>
+                                                        <li class="leaf" title="CavFanatic Forums"><a href="http://cavfanatic.com/forums/" title="CavFanatic Forums">Forums</a></li>
+                                                        <li class="leaf" title=""><a href="/cavaliers/photos" title="">Photo Galleries</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/youthsports" title="">Youth Hoops</a></li>
+                                                        <li class="leaf"><a href="/cavaliers/mobile">Mobile App</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/insider" title="">Become a Cavs Insider</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf" title=""><a href="/cavaliers/entertainment" title="">Game Entertainment</a></li>
+                                                        <li class="leaf"><a href="/cavaliers/fans/wallpapers">Wallpapers</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row block">
+                                                    <ul>
+                                                        <li class="last leaf" title="">
+                                                            <div class="menu-attach-block-wrapper orientation-horizontal">
+                                                                <div id="block-bean-rustolem--3" class="block block-bean">
+                                                                    <h2>Presented by Rust-Oleum</h2>
+                                                                    <div class="content">
+                                                                        <div class="menu-block">
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link"><img class="block__img" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/large/public/chlakboard_240x90.jpg?itok=62-nF25o" width="100%" alt="Presented by Rust-Oleum" title="Presented by Rust-Oleum" /></a>
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link menu-block__link--title">Presented by Rust-Oleum</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="last expanded main-nav__menu-item has-dropdown" title=""><a href="/cavaliers/community" title="">Community</a>
+                                            <div class='button-primary__arrow button-primary__arrow--down button-primary__arrow--mobile-nav'></div>
+                                            <ul class="dropdown cols-4 blocks-1">
+                                                <li class="dropdown-row">
+                                                    <ul>
+                                                        <li class="first leaf"><a href="/cavaliers/community/education">Education Programs</a></li>
+                                                        <li class="leaf"><a href="/cavaliers/community/cyf">Youth Fund</a></li>
+                                                        <li class="leaf" title=""><a href="/cavaliers/community/donations" title="">Donation Requests</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf"><a href="/cavaliers/community/raffle">50/50 Raffle</a></li>
+                                                        <li class="leaf" title=""><a href="http://www.nba.com/cavaliers/community/pediatric-cancer-awareness" title="">Blocking Pediatric Cancer</a></li>
+                                                        <li class="leaf"><a href="/cavaliers/community/trees">Trees for Threes</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row ">
+                                                    <ul>
+                                                        <li class="leaf" title=""><a href="/cavaliers/community/faqs" title="">FAQs</a></li>
+                                                        <li class="leaf" target="_blank" title=""><a href="http://rethinkcleveland.org/home.aspx" target="_blank" title="">Rethink Cleveland</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-row block">
+                                                    <ul>
+                                                        <li class="last leaf" title="">
+                                                            <div class="menu-attach-block-wrapper orientation-vertical">
+                                                                <div id="block-bean-rustolem--4" class="block block-bean">
+                                                                    <h2>Presented by Rust-Oleum</h2>
+                                                                    <div class="content">
+                                                                        <div class="menu-block">
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link"><img class="block__img" src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/large/public/chlakboard_240x90.jpg?itok=62-nF25o" width="100%" alt="Presented by Rust-Oleum" title="Presented by Rust-Oleum" /></a>
+                                                                            <a href="http://www.rustoleum.com/" title="Presented by Rust-Oleum" class="menu-block__link menu-block__link--title">Presented by Rust-Oleum</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="search-box">
+                                        <p><span class="search-box__pre-text">Search</span> <a tabindex="-1" class="search-box__icon" href="#"><span tabindex="-1" class="element-invisible">Toggle Search Input</span></a>
+                                        </p>
+                                        <div class="search-box__form-wrapper">
+                                            <form>
+                                                <label for="search-box__input-box" class="element-invisible">Search Box</label>
+                                                <input tabindex="1" id="search-box__input-box" class="search-box__input-box" alt="search box" type="text" placeholder="Search" />
+                                                <input tabindex="1" type="submit" class="submit search-box__submit-btn" value="Search" />
+                                                <div class="search-box__submit-btn-icon"></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- Social Bar -->
+                                    <div class="social-bar-wrapper">
+                                        <a class="social-bar__mobile-icon visible-xs" href="#"><span class="element-invisible">Social Menu</span></a>
+                                        <div class="region region-header-social">
+                                            <div id="block-etowah-marketing-social-links-header" class="block block-etowah-marketing">
+                                                <div class="content">
+                                                    <ul class="social-bar social-bar--header">
+                                                        <li class="social-bar__item"><a href="https://www.facebook.com/cavs" target="_blank" class="social-facebook-icon social-facebook-link facebook-color" alt="facebook social link" title="facebook social link"><span class="element-invisible">facebook</span></a></li>
+                                                        <li class="social-bar__item"><a href="https://twitter.com/cavs" target="_blank" class="social-twitter-icon social-twitter-link twitter-color" alt="twitter social link" title="twitter social link"><span class="element-invisible">twitter</span></a></li>
+                                                        <li class="social-bar__item"><a href="https://plus.google.com/+cavs/posts" target="_blank" class="social-google-plus-icon social-google-plus-link google-plus-color" alt="google-plus social link" title="google-plus social link"><span class="element-invisible">google-plus</span></a></li>
+                                                        <li class="social-bar__item"><a href="http://instagram.com/cavs" target="_blank" class="social-instagram-icon social-instagram-link instagram-color" alt="instagram social link" title="instagram social link"><span class="element-invisible">instagram</span></a></li>
+                                                        <li class="social-bar__item"><a href="https://www.pinterest.com/cavs/" target="_blank" class="social-pinterest-icon social-pinterest-link pinterest-color" alt="pinterest social link" title="pinterest social link"><span class="element-invisible">pinterest</span></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End .col-lg-12 -->
+                            </div>
+                            <!-- End .row -->
+                        </div>
+                        <!-- End .container -->
+                    </div>
+                    <!-- End .main-nav-wrapper-inner -->
+                </nav>
+                <!-- End .main-nav-wrapper -->
+            </header>
+            <div class="container">
+            </div>
+            <div class="page-header-ad">
+                <div class="container">
+                    <div class="region region-header">
+                        <div id="block-panels-mini-mini-panel-top-banner-ad" class="block block-panels-mini">
+                            <div class="content">
+                                <div class="panel-display panel-1col clearfix" id="mini-panel-mini_panel_top_banner_ad">
+                                    <div class="panel-panel panel-col">
+                                        <div>
+                                            <div class="panel-pane pane-fieldable-panels-pane pane-uuid-846c1293-c062-11e3-8a33-0800200c9a66 pane-bundle-etowah-promo">
+                                                <div class="fieldable-panels-pane">
+                                                    <div id="div-gpt-ad-846c1293-c062-11e3-8a33-0800200c9a66" class="gpt_container" data-section="" data-pos-one="" data-pos-two=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div tabindex="0" id="content" class="">
+                <div id="page-header">
+                </div>
+                <div class="region region-content">
+                    <div id="block-system-main" class="block block-system">
+                        <div class="content">
+                            <div class="panel-flexible panels-flexible-3543 clearfix">
+                                <div class="panel-flexible-inside panels-flexible-3543-inside">
+                                    <div class="panels-flexible-region panels-flexible-region-3543-center panels-flexible-region-first panels-flexible-region-last">
+                                        <div class="inside panels-flexible-region-inside panels-flexible-region-3543-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+                                            <div class="panel-pane pane-entity-field pane-node-body">
+                                                <div class="pane-content">
+                                                    <div class="field field-name-body field-type-text-with-summary field-label-hidden">

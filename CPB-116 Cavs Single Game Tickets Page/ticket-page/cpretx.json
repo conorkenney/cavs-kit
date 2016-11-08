@@ -1,0 +1,68 @@
+[
+  {
+    "gcode": "20161005/ORLCLE",
+    "starting": "",
+    "promotions": "",
+    "link": "http://www.ticketingcentral.com/V2/Home.aspx?I=vNjWAwAAAADaVnsRAgAAAAC3%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fBGNhdnMA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d",
+    "tixStatus": "",
+    "flashseats": "https://www.flashseats.com/Default.aspx?pid=18&ec=9000000000016309&ss=0&fss=499926735",
+    "flashStatus": "",
+    "vipStatus": "hidden",
+    "premStatus": "hidden"
+  },
+  {
+    "gcode": "20161008/PHICLE",
+    "starting": "",
+    "promotions": "",
+    "link": "http://www.ticketingcentral.com/V2/Home.aspx?I=vNjWAwAAAAAMX3sRAgAAAAC8%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fBGNhdnMA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d",
+    "tixStatus": "",
+    "flashseats": "https://www.flashseats.com/Default.aspx?pid=18&ec=9000000000016310&ss=0&fss=672151906",
+    "flashStatus": "",
+    "vipStatus": "hidden",
+    "premStatus": "hidden"
+  },
+  {
+    "gcode": "20161010/CLEATL",
+    "starting": "away",
+    "promotions": "",
+    "link": "",
+    "tixStatus": "",
+    "flashseats": "",
+    "flashStatus": "",
+    "vipStatus": "hidden",
+    "premStatus": "hidden"
+  },
+  {
+    "gcode": "20161013/TORCLE",
+    "starting": "",
+    "promotions": "",
+    "link": "http://www.ticketingcentral.com/V2/Home.aspx?I=vNjWAwAAAAC3YnsRAgAAAAC1%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fBGNhdnMA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d",
+    "tixStatus": "",
+    "flashseats": "https://www.flashseats.com/Default.aspx?pid=18&ec=9000000000016524&ss=0&fss=1402752507",
+    "flashStatus": "",
+    "vipStatus": "hidden",
+    "premStatus": "hidden"
+  },
+  {
+    "gcode": "20161014/CLECHI",
+    "starting": "away",
+    "promotions": "",
+    "link": "",
+    "tixStatus": "",
+    "flashseats": "",
+    "flashStatus": "",
+    "vipStatus": "hidden",
+    "premStatus": "hidden"
+  },
+  {
+    "gcode": "20161018/WASCLE",
+    "starting": "",
+    "promotions": "Played at the Schottenstein Center in Columbus, OH",
+    "link": "http://www.ticketmaster.com/event/05005110D94942E4",
+    "tixStatus": "",
+    "flashseats": "",
+    "flashStatus": "disabled",
+    "vipStatus": "hidden",
+    "premStatus": "hidden"
+  }
+]

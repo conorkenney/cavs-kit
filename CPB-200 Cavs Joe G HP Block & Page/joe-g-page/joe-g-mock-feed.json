@@ -1,0 +1,1965 @@
+{
+  "query": {
+    "tags": "Joe Gabriele",
+    "sort": "changed",
+    "size": "25"
+  },
+  "settings": {
+    "timestamp": "Tue Oct 18 13:48:58 EST 2016",
+    "view mode": "list",
+    "text format": "plain",
+    "type": [
+      "story",
+      "video",
+      "league_video",
+      "wsc_video",
+      "photo_gallery"
+    ],
+    "offset": 0,
+    "size": 25,
+    "count": 25,
+    "tags": "Joe Gabriele",
+    "test": "tags",
+    "language": [
+      "en",
+      "und"
+    ],
+    "sort": "changed",
+    "order": "DESC"
+  },
+  "content": [
+    {
+      "nid": "44333",
+      "type": "story",
+      "title": "The Optimist in Columbus",
+      "subtitle": "October 18, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/optimist-columbus-161018",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44333",
+      "created": "18 Oct 2016 05:56:00 UTC",
+      "changed": "18 Oct 2016 14:32:49 UTC",
+      "formatted": {
+        "created": "2016-10-18",
+        "changed": "2016-10-18"
+      },
+      "author": "",
+      "teaser": "Haho, y’uns. I’m an Optimist – corresponding from Columbus, Ohio: birthplace of Archie Griffin, Buster Douglas, Dwight Yoakam, Guy Fieri, Jack Nicklaus, John Legend, Bobby Rahal, Beverly D’Angelo, RJD2, Wendy’s founder Dave Thomas, three Miss Americas, Li’l Bow Wow, Max and Erma and, of course, the “Macho Man” Randy Savage.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/optimist_columbus_161018_0.jpg?itok=-zZb1vtI",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/optimist_columbus_161018_0.jpg?itok=k4pVChP7",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/optimist_columbus_161018_0.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/optimist_columbus_161018_0.jpg?itok=-zZb1vtI",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "James, LeBron",
+          "Smith, J.R."
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          }
+        },
+        "tags": [
+          "Features",
+          "The Optimist",
+          "Joe Gabriele",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44281",
+      "type": "story",
+      "title": "Cavs Can't Hold Off Bulls Starters in Chicago ",
+      "subtitle": "Super-Subs Lead Bulls Through Three Almost Quarters, Fall in the Fourth",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-bulls-161014",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44281",
+      "created": "15 Oct 2016 05:15:00 UTC",
+      "changed": "15 Oct 2016 15:28:15 UTC",
+      "formatted": {
+        "created": "2016-10-15",
+        "changed": "2016-10-15"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Once again going with a roster of roster hopefuls, the Cavaliers took another Eastern Conference rival using their regulars to their limit – going toe-to-toe with Dwyane Wade, Rajon Rondo and the Bulls before falling, 118-108, on Friday night in Chicago.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holland_161014.jpg?itok=0SjfCmj8",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/holland_161014.jpg?itok=iAqtJjB8",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/holland_161014.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holland_161014.jpg?itok=0SjfCmj8",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Felder, Kay",
+          "Holland, John",
+          "Holmes, Jonathan",
+          "Jefferson, Cory",
+          "Jones, James"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Bulls",
+          "Cavaliers"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161014/CLECHI",
+            "gid": "0011600062"
+          }
+        ],
+        "players_info": {
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "203928": {
+            "first_name": "Cory",
+            "last_name": "Jefferson",
+            "person_id": "203928"
+          },
+          "204066": {
+            "first_name": "John",
+            "last_name": "Holland",
+            "person_id": "204066"
+          },
+          "1626182": {
+            "first_name": "Jonathan",
+            "last_name": "Holmes",
+            "person_id": "1626182"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "10-14-16 at Bulls",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44247",
+      "type": "story",
+      "title": "Raptors Run Past Cavaliers at The Q",
+      "subtitle": "Toronto Guards Too Much for Cavs in Preseason Finale in Cleveland",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-raptors-161013",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44247",
+      "created": "14 Oct 2016 03:32:00 UTC",
+      "changed": "14 Oct 2016 13:36:41 UTC",
+      "formatted": {
+        "created": "2016-10-13",
+        "changed": "2016-10-14"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "In their final preseason contest at The Q, the Cavaliers went with their regular starters – minus LeBron James – and after one quarter, it looked like Cleveland’s master over the Raptors on their home floor would continue.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holmes_161013.jpg?itok=d-HuzMi2",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/holmes_161013.jpg?itok=K1XIDaSD",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/holmes_161013.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/holmes_161013.jpg?itok=d-HuzMi2",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Irving, Kyrie",
+          "Love, Kevin",
+          "Thompson, Tristan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Raptors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161013/TORCLE",
+            "gid": "0011600059"
+          }
+        ],
+        "players_info": {
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "10-13-16 vs. Raptors",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44205",
+      "type": "story",
+      "title": "Frye Lets It Fly",
+      "subtitle": "Channing Frye Brings Good Vibes to Cleveland -- On and Off the Floor",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/frye-161012",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44205",
+      "created": "12 Oct 2016 21:06:00 UTC",
+      "changed": "14 Oct 2016 00:04:00 UTC",
+      "formatted": {
+        "created": "2016-10-12",
+        "changed": "2016-10-13"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Now beginning his first full season with the Wine and Gold, Channing Frye sat down with Cavs.com to talk about his offseason as an NBA Champ, the adjustments he made over the summer and his perfect shooting mark through the preseason ...",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/frye_161012.jpg?itok=5WzPFpzp",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/frye_161012.jpg?itok=ph_0eiS5",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/frye_161012.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/frye_161012.jpg?itok=5WzPFpzp",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Andersen, Chris",
+          "Dunleavy, Mike",
+          "Felder, Kay",
+          "Frye, Channing"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2365": {
+            "first_name": "Chris",
+            "last_name": "Andersen",
+            "person_id": "2365"
+          },
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44175",
+      "type": "story",
+      "title": "Scrappy Cavaliers Fall in Atlanta",
+      "subtitle": "Reserves Battling for Roster Spots Nearly Topple Hawks",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-hawks-161010",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44175",
+      "created": "11 Oct 2016 04:01:00 UTC",
+      "changed": "11 Oct 2016 16:13:50 UTC",
+      "formatted": {
+        "created": "2016-10-11",
+        "changed": "2016-10-11"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "If there’s one thing the Cavaliers didn’t accomplish in Monday night’s preseason contest in Atlanta, it was making the coaching staff’s job any easier as they try to sort out the remaining spots on the roster.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/douglas_161010.jpg?itok=Nj-hDzaP",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/douglas_161010.jpg?itok=xnbNznjs",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/douglas_161010.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/douglas_161010.jpg?itok=Nj-hDzaP",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Brown, Markel",
+          "Douglas, Toney",
+          "Felder, Kay",
+          "Holmes, Jonathan",
+          "Jefferson, Cory",
+          "Liggins, DeAndre",
+          "McRae, Jordan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Hawks",
+          "Cavaliers"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161010/CLEATL",
+            "gid": "0011600040"
+          }
+        ],
+        "players_info": {
+          "201962": {
+            "first_name": "Toney",
+            "last_name": "Douglas",
+            "person_id": "201962"
+          },
+          "202732": {
+            "first_name": "DeAndre",
+            "last_name": "Liggins",
+            "person_id": "202732"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          },
+          "203900": {
+            "first_name": "Markel",
+            "last_name": "Brown",
+            "person_id": "203900"
+          },
+          "203928": {
+            "first_name": "Cory",
+            "last_name": "Jefferson",
+            "person_id": "203928"
+          },
+          "1626182": {
+            "first_name": "Jonathan",
+            "last_name": "Holmes",
+            "person_id": "1626182"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "Recap",
+          "10-10-16 at Hawks",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44145",
+      "type": "story",
+      "title": "Rounding Out the Roster",
+      "subtitle": "With Three Roster Spots Open, the Preseason Takes On Added Importance ",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/roster-atl-161010",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44145",
+      "created": "10 Oct 2016 16:24:00 UTC",
+      "changed": "10 Oct 2016 23:30:18 UTC",
+      "formatted": {
+        "created": "2016-10-10",
+        "changed": "2016-10-10"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "With three roster spots open, the preseason takes on added importance and Cavs.com's Joe Gabriele takes a look at the few remaining roster spots.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/roster_161010_0.jpg?itok=XBBOpfns",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/roster_161010_0.jpg?itok=spamQpsp",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/roster_161010_0.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/roster_161010_0.jpg?itok=XBBOpfns",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Andersen, Chris",
+          "Brown, Markel",
+          "Douglas, Toney",
+          "Dunleavy, Mike",
+          "Felder, Kay",
+          "Frye, Channing",
+          "Holland, John",
+          "Holmes, Jonathan",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Jefferson, Cory",
+          "Jefferson, Richard",
+          "Jones, James",
+          "Liggins, DeAndre",
+          "Love, Kevin",
+          "McRae, Jordan",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2365": {
+            "first_name": "Chris",
+            "last_name": "Andersen",
+            "person_id": "2365"
+          },
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "201962": {
+            "first_name": "Toney",
+            "last_name": "Douglas",
+            "person_id": "201962"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "202732": {
+            "first_name": "DeAndre",
+            "last_name": "Liggins",
+            "person_id": "202732"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          },
+          "203900": {
+            "first_name": "Markel",
+            "last_name": "Brown",
+            "person_id": "203900"
+          },
+          "203928": {
+            "first_name": "Cory",
+            "last_name": "Jefferson",
+            "person_id": "203928"
+          },
+          "204066": {
+            "first_name": "John",
+            "last_name": "Holland",
+            "person_id": "204066"
+          },
+          "1626182": {
+            "first_name": "Jonathan",
+            "last_name": "Holmes",
+            "person_id": "1626182"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016 Training Camp",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44129",
+      "type": "story",
+      "title": "Reserves Preserve Cavaliers Victory",
+      "subtitle": "LeBron and Kyrie Roll Early, McRae Closes Door Late ",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-sixers-161008",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44129",
+      "created": "09 Oct 2016 03:38:00 UTC",
+      "changed": "10 Oct 2016 13:33:58 UTC",
+      "formatted": {
+        "created": "2016-10-08",
+        "changed": "2016-10-10"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "The results were similar to the reigning Champs’ first exhibition contest – as Jordan McRae once again led all scorers as the Cavaliers took the 108-105 victory over the short-handed Sixers.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/161008-recap-758.jpg?itok=7YeWuaGu",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/161008-recap-758.jpg?itok=38rwIyog",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/161008-recap-758.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/161008-recap-758.jpg?itok=7YeWuaGu",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Brown, Markel",
+          "Frye, Channing",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "McRae, Jordan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          },
+          "203900": {
+            "first_name": "Markel",
+            "last_name": "Brown",
+            "person_id": "203900"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "10-8-16 vs. Sixers",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "44061",
+      "type": "story",
+      "title": "Young Guards Lead Cavs Past Magic",
+      "subtitle": "McRae, Felder Impress as Cavs Open Preseason Over Orlando",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-magic-161005",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=44061",
+      "created": "06 Oct 2016 02:59:00 UTC",
+      "changed": "06 Oct 2016 15:54:04 UTC",
+      "formatted": {
+        "created": "2016-10-05",
+        "changed": "2016-10-06"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "On Wednesday night, Cleveland jumped out to a double-digit lead after one quarter and never looked back – running their lead to as many as 31 points before wrapping up the 117-102 win.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/mcrae_161005.jpg?itok=ohy_UFUG",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/mcrae_161005.jpg?itok=juvniDb2",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/mcrae_161005.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/mcrae_161005.jpg?itok=ohy_UFUG",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Felder, Kay",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "McRae, Jordan"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Magic"
+        ],
+        "schedule": [
+          {
+            "gurl": "20161005/ORLCLE",
+            "gid": "0011600017"
+          }
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "10-5-16 vs. Magic",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "43967",
+      "type": "story",
+      "title": "Newcomers Headline Sunday Scrimmage",
+      "subtitle": "Dunleavy Highlights Wine and Gold Srimmage at The Q",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/winegold-161002",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43967",
+      "created": "02 Oct 2016 21:32:00 UTC",
+      "changed": "02 Oct 2016 22:21:19 UTC",
+      "formatted": {
+        "created": "2016-10-02",
+        "changed": "2016-10-02"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Cavs.com's Joe Gabriele breaks down Sunday's annual intersquad scrimmage from The Q.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/161002-recap-758.jpg?itok=aMnFtKYf",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/161002-recap-758.jpg?itok=2R_4M7V4",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/161002-recap-758.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/161002-recap-758.jpg?itok=aMnFtKYf",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Dunleavy, Mike",
+          "Felder, Kay",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Love, Kevin",
+          "Shumpert, Iman"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Recap",
+          "Joe Gabriele",
+          "2016 Wine and Gold Scrimmage",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "43953",
+      "type": "story",
+      "title": "Getting Defensive",
+      "subtitle": "The D-League's Top Defender Comes to Camp with the Cavaliers",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/liggins-161001",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43953",
+      "created": "01 Oct 2016 17:30:00 UTC",
+      "changed": "02 Oct 2016 15:19:25 UTC",
+      "formatted": {
+        "created": "2016-10-01",
+        "changed": "2016-10-02"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "This man is DeAndre Liggins – a player who has helped eliminate the Canton Charge from the postseason not once, not twice, but thrice. That includes this past spring, when Liggins – the two-time D-League Defensive Player of the Year – and his Sioux Falls Skyforce dropped the Charge in the East Finals en route to the 2016 Championship.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/camp-160927-5_0.jpg?itok=qtDshIv0",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/camp-160927-5_0.jpg?itok=BPRg3ZVU",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/camp-160927-5_0.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/camp-160927-5_0.jpg?itok=qtDshIv0",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Irving, Kyrie"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "43929",
+      "type": "story",
+      "title": "Growing Up ... Mike Dunleavy Jr.",
+      "subtitle": "September 30, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/growingup-dunleavy-160929",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43929",
+      "created": "29 Sep 2016 21:10:00 UTC",
+      "changed": "02 Oct 2016 15:16:37 UTC",
+      "formatted": {
+        "created": "2016-09-29",
+        "changed": "2016-10-02"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "In today’s installment of \"Growing Up ...\", the Wine and Gold’s new swingman talks about life on the move, competing with an NBA dad in the driveway and, of course, his first dunk ...",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/dunleavy_160929.jpg?itok=n4ZLCCM9",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/dunleavy_160929.jpg?itok=GDf5U3hZ",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/dunleavy_160929.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/dunleavy_160929.jpg?itok=n4ZLCCM9",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Dunleavy, Mike"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          }
+        },
+        "tags": [
+          "2016-17 Season",
+          "Growing Up",
+          "Features",
+          "Joe Gabriele"
+        ]
+      }
+    },
+    {
+      "nid": "43883",
+      "type": "story",
+      "title": "Cavaliers Training Camp Tip-Off",
+      "subtitle": "September 27, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/camp-preview-160927",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43883",
+      "created": "27 Sep 2016 22:35:00 UTC",
+      "changed": "28 Sep 2016 13:58:46 UTC",
+      "formatted": {
+        "created": "2016-09-27",
+        "changed": "2016-09-28"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "After taking the 2016 title, the Wine and Gold are back to work -- gearing up in Training Camp with the preseason opener only eight days away. Cavs.com breaks down the calm before the storm ...",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/camp-160927-1.jpg?itok=F95ZBShz",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/camp-160927-1.jpg?itok=DYECPgvU",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/camp-160927-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/camp-160927-1.jpg?itok=F95ZBShz",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Frye, Channing",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Jefferson, Richard",
+          "Jones, James",
+          "Love, Kevin",
+          "McRae, Jordan",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan",
+          "Mozgov, Timofey",
+          "Dellavedova, Matthew",
+          "Jones, Dahntay",
+          "Kaun, Sasha",
+          "Williams, Mo"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2563": {
+            "first_name": "Dahntay",
+            "last_name": "Jones",
+            "person_id": "2563"
+          },
+          "2590": {
+            "first_name": "Mo",
+            "last_name": "Williams",
+            "person_id": "2590"
+          },
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "201619": {
+            "first_name": "Sasha",
+            "last_name": "Kaun",
+            "person_id": "201619"
+          },
+          "202389": {
+            "first_name": "Timofey",
+            "last_name": "Mozgov",
+            "person_id": "202389"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "203521": {
+            "first_name": "Matthew",
+            "last_name": "Dellavedova",
+            "person_id": "203521"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016 Training Camp",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "43845",
+      "type": "story",
+      "title": "Not Another Manic Monday",
+      "subtitle": "Training Camp Tips Off with the Annual Media Day Session in Independence",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/media-day-160926",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43845",
+      "created": "26 Sep 2016 22:03:00 UTC",
+      "changed": "27 Sep 2016 16:10:10 UTC",
+      "formatted": {
+        "created": "2016-09-26",
+        "changed": "2016-09-27"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "As you can imagine, this year’s Media Day – the annual lights-camera-action start to Cavaliers Training Camp – had a vastly different feel. That’s what happens when the following season tips off less than three months after a Championship Parade.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/160926-joe-g-758.jpg?itok=1VZEMLaq",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/160926-joe-g-758.jpg?itok=K8WJLGab",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/160926-joe-g-758.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/160926-joe-g-758.jpg?itok=1VZEMLaq",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Dunleavy, Mike",
+          "James, LeBron",
+          "Jefferson, Richard",
+          "Love, Kevin",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          }
+        },
+        "tags": [
+          "2016 Media Day",
+          "Features",
+          "Joe Gabriele"
+        ]
+      }
+    },
+    {
+      "nid": "43723",
+      "type": "story",
+      "title": "Covering the Movement Across the NBA",
+      "subtitle": "September 7, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/player-movement-160906",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43723",
+      "created": "07 Sep 2016 23:05:00 UTC",
+      "changed": "20 Sep 2016 20:14:33 UTC",
+      "formatted": {
+        "created": "2016-09-07",
+        "changed": "2016-09-20"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Cavs.com gives you a quick look at what moves went down around the Association over the summer.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/sherwin-homepage-160907.jpg?itok=PCc8CwW0",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/sherwin-homepage-160907.jpg?itok=8mL9nAvV",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/sherwin-homepage-160907.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/sherwin-homepage-160907.jpg?itok=PCc8CwW0",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Andersen, Chris",
+          "Dunleavy, Mike",
+          "Felder, Kay",
+          "Mozgov, Timofey",
+          "Dellavedova, Matthew",
+          "Kaun, Sasha"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2365": {
+            "first_name": "Chris",
+            "last_name": "Andersen",
+            "person_id": "2365"
+          },
+          "2399": {
+            "first_name": "Mike",
+            "last_name": "Dunleavy",
+            "person_id": "2399"
+          },
+          "201619": {
+            "first_name": "Sasha",
+            "last_name": "Kaun",
+            "person_id": "201619"
+          },
+          "202389": {
+            "first_name": "Timofey",
+            "last_name": "Mozgov",
+            "person_id": "202389"
+          },
+          "203521": {
+            "first_name": "Matthew",
+            "last_name": "Dellavedova",
+            "person_id": "203521"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016-17 Season"
+        ]
+      }
+    },
+    {
+      "nid": "43607",
+      "type": "story",
+      "title": "Cavaliers Season-in-Review: Veteran Forwards",
+      "subtitle": "August 18, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/review-reserves-160818",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43607",
+      "created": "18 Aug 2016 13:45:00 UTC",
+      "changed": "22 Aug 2016 14:48:28 UTC",
+      "formatted": {
+        "created": "2016-08-18",
+        "changed": "2016-08-22"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "As Cavs.com continues our annual Season-in-Review -- in this edition we focus on the squad's vastly-experienced veterans and specifically a trio of reserve forwards.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/reserve-160817-1.jpg?itok=nkkppKzj",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/reserve-160817-1.jpg?itok=SuiWjFSb",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/reserve-160817-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/reserve-160817-1.jpg?itok=nkkppKzj",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Frye, Channing",
+          "Jefferson, Richard",
+          "Jones, James"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016 Season-in-Review"
+        ]
+      }
+    },
+    {
+      "nid": "43405",
+      "type": "story",
+      "title": "Ten Schedule Tips for the 2016-17 Season",
+      "subtitle": "August 11, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/schedule-tips-160811",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43405",
+      "created": "11 Aug 2016 22:30:00 UTC",
+      "changed": "12 Aug 2016 13:42:24 UTC",
+      "formatted": {
+        "created": "2016-08-11",
+        "changed": "2016-08-12"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "On Thursday afternoon, the NBA released its 2016-17 schedule and Cavs.com has some tips for checking out the Cavaliers journey in defense of the Championship.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/schedule-160811-1.jpg?itok=FBJ1-dmT",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/schedule-160811-1.jpg?itok=5VkmR4Tw",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/schedule-160811-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/schedule-160811-1.jpg?itok=FBJ1-dmT",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160521/CLETOR",
+            "gid": "0041500303"
+          }
+        ],
+        "tags": [
+          "Joe Gabriele",
+          "Features",
+          "2016-17 Schedule"
+        ]
+      }
+    },
+    {
+      "nid": "43363",
+      "type": "story",
+      "title": "Cavaliers Season-in-Review: Starting Frontcourt",
+      "subtitle": "August 5, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/review-forwards-160805",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43363",
+      "created": "05 Aug 2016 19:10:00 UTC",
+      "changed": "05 Aug 2016 19:11:52 UTC",
+      "formatted": {
+        "created": "2016-08-05",
+        "changed": "2016-08-05"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "As Cavs.com continues our annual Season-in-Review -- focused today on the squad's starting frontcourt -- we take a closer look at the Wine and Gold’s formidable troika.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/forward-160805-1.jpg?itok=CTCS4hyI",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/forward-160805-1.jpg?itok=e9xmzfQf",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/forward-160805-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/forward-160805-1.jpg?itok=CTCS4hyI",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "James, LeBron",
+          "Love, Kevin",
+          "Thompson, Tristan"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016 Season-in-Review"
+        ]
+      }
+    },
+    {
+      "nid": "43175",
+      "type": "story",
+      "title": "Cavaliers Season-in-Review: The Guards",
+      "subtitle": "July 14, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/changing-guards-160713",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43175",
+      "created": "14 Jul 2016 13:03:00 UTC",
+      "changed": "14 Jul 2016 16:13:06 UTC",
+      "formatted": {
+        "created": "2016-07-14",
+        "changed": "2016-07-14"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "All season long, the Cavaliers leaned on their dangerous and diverse backcourt -- from Swish's long-range shooting to Shump's tenacious D to Kyrie's cold-blooded precision.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/guards-160713-1.jpg?itok=AX9WSJ9-",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/guards-160713-1.jpg?itok=iU8P497H",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/guards-160713-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/guards-160713-1.jpg?itok=AX9WSJ9-",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Irving, Kyrie",
+          "Jones, Dahntay",
+          "McRae, Jordan",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Williams, Mo",
+          "Dellavedova, Matthew"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2563": {
+            "first_name": "Dahntay",
+            "last_name": "Jones",
+            "person_id": "2563"
+          },
+          "2590": {
+            "first_name": "Mo",
+            "last_name": "Williams",
+            "person_id": "2590"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "203521": {
+            "first_name": "Matthew",
+            "last_name": "Dellavedova",
+            "person_id": "203521"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016 Season-in-Review"
+        ]
+      }
+    },
+    {
+      "nid": "43171",
+      "type": "story",
+      "title": "The Boys of Summer",
+      "subtitle": "Director of Player Development, Phil Handy on Helming the Wine and Gold's Summer League Squad",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/handy-summer-160713",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43171",
+      "created": "13 Jul 2016 15:30:00 UTC",
+      "changed": "13 Jul 2016 17:42:25 UTC",
+      "formatted": {
+        "created": "2016-07-13",
+        "changed": "2016-07-13"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "Before the Cavs try to win their second tourney in as many months, Coach Handy took a moment to talk with Cavs.com after practice in Nevada ...",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/160713-handy-758-new.jpg?itok=aUbTgh6U",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/160713-handy-758-new.jpg?itok=ShhB4oIL",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/160713-handy-758-new.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/160713-handy-758-new.jpg?itok=aUbTgh6U",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Felder, Kay",
+          "Irving, Kyrie",
+          "McRae, Jordan"
+        ],
+        "coaches": [
+          "Handy, Phil",
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "2016 NBA Summer League",
+          "2016 Summer League",
+          "Features",
+          "Joe Gabriele"
+        ]
+      }
+    },
+    {
+      "nid": "43063",
+      "type": "story",
+      "title": "Cavaliers 2016 Summer League Primer",
+      "subtitle": "Wine and Gold Gear Up for 12th Straight Visit to Vegas ",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/summer-primer-160707",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43063",
+      "created": "07 Jul 2016 05:00:00 UTC",
+      "changed": "07 Jul 2016 21:24:19 UTC",
+      "formatted": {
+        "created": "2016-07-07",
+        "changed": "2016-07-07"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "With Cleveland’s first game slated for Friday night at Cox Pavilion, here’s a quick primer on what to look for as the Samsung Summer League tips off ...",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/mcrae_160707.jpg?itok=67Ug6WAl",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/mcrae_160707.jpg?itok=AWVOR_M5",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/mcrae_160707.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/mcrae_160707.jpg?itok=67Ug6WAl",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "tags": [
+          "2016 Summer League",
+          "Features",
+          "Joe Gabriele"
+        ]
+      }
+    },
+    {
+      "nid": "43021",
+      "type": "story",
+      "title": "Little Big Man",
+      "subtitle": "Cavaliers Rookie Kay Felder Looks to Make a Splash at Summer League",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/felder-summer-160705",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=43021",
+      "created": "05 Jul 2016 18:42:00 UTC",
+      "changed": "06 Jul 2016 21:44:55 UTC",
+      "formatted": {
+        "created": "2016-07-05",
+        "changed": "2016-07-06"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "At 5-9, 176, Felder was the smallest player selected in this June’s Draft. He also entered the selection process with some of the country’s most impressive numbers – both this past season and over the course of his three-year career with Oakland U.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/felder_160705.jpg?itok=MKEzg3pf",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/felder_160705.jpg?itok=d7da2orZ",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/felder_160705.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/felder_160705.jpg?itok=MKEzg3pf",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Felder, Kay",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Williams, Mo"
+        ],
+        "coaches": [
+          "Handy, Phil"
+        ],
+        "teams": [
+          "Cavaliers"
+        ],
+        "players_info": {
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2590": {
+            "first_name": "Mo",
+            "last_name": "Williams",
+            "person_id": "2590"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "1627770": {
+            "first_name": "Kay",
+            "last_name": "Felder",
+            "person_id": "1627770"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele"
+        ]
+      }
+    },
+    {
+      "nid": "42911",
+      "type": "story",
+      "title": "Taking the Title",
+      "subtitle": "How the Wine and Gold Made History and Shocked the Basketball World",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/taking-title-160621",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42911",
+      "created": "21 Jun 2016 21:41:00 UTC",
+      "changed": "21 Jun 2016 22:40:17 UTC",
+      "formatted": {
+        "created": "2016-06-21",
+        "changed": "2016-06-21"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "The Cavaliers snapped Cleveland's curse with an epic Game 7 victory over Golden State -- here's how it went down.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/title-160621-1.jpg?itok=bsL7kY8k",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/title-160621-1.jpg?itok=NMkogOqy",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/title-160621-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/title-160621-1.jpg?itok=bsL7kY8k",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Dellavedova, Matthew",
+          "Frye, Channing",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Jefferson, Richard",
+          "Jones, Dahntay",
+          "Jones, James",
+          "Kaun, Sasha",
+          "Love, Kevin",
+          "McRae, Jordan",
+          "Mozgov, Timofey",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan",
+          "Williams, Mo"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2563": {
+            "first_name": "Dahntay",
+            "last_name": "Jones",
+            "person_id": "2563"
+          },
+          "2590": {
+            "first_name": "Mo",
+            "last_name": "Williams",
+            "person_id": "2590"
+          },
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "201619": {
+            "first_name": "Sasha",
+            "last_name": "Kaun",
+            "person_id": "201619"
+          },
+          "202389": {
+            "first_name": "Timofey",
+            "last_name": "Mozgov",
+            "person_id": "202389"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "203521": {
+            "first_name": "Matthew",
+            "last_name": "Dellavedova",
+            "person_id": "203521"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          }
+        },
+        "tags": [
+          "Features",
+          "Joe Gabriele",
+          "2016 Finals vs Warriors",
+          "2016 Playoffs"
+        ]
+      }
+    },
+    {
+      "nid": "42749",
+      "type": "story",
+      "title": "WON FOR ALL!",
+      "subtitle": "LeBron Caps Historic Comeback as Cavaliers End Cleveland's Curse",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-warriors7-160619",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42749",
+      "created": "20 Jun 2016 19:42:00 UTC",
+      "changed": "20 Jun 2016 21:45:00 UTC",
+      "formatted": {
+        "created": "2016-06-20",
+        "changed": "2016-06-20"
+      },
+      "author": "Nick Adams",
+      "teaser": "Two summers ago, a wise young man wrote: “In Northeast Ohio, nothing is given. Everything is earned.”",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/lbj_160619_0.jpg?itok=pSERCpSZ",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/lbj_160619_0.jpg?itok=ZgaQrk13",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/lbj_160619_0.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/lbj_160619_0.jpg?itok=pSERCpSZ",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "tags": [
+          "Recap",
+          "Joe Gabriele",
+          "Features",
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors",
+          "2016 Playoffs"
+        ]
+      }
+    },
+    {
+      "nid": "42705",
+      "type": "story",
+      "title": "Five Keys: Cavaliers at Warriors - Game 7",
+      "subtitle": "June 19, 2016",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/features/five-keys-warriors-160619",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42705",
+      "created": "18 Jun 2016 22:23:00 UTC",
+      "changed": "20 Jun 2016 00:02:14 UTC",
+      "formatted": {
+        "created": "2016-06-18",
+        "changed": "2016-06-19"
+      },
+      "author": "Joe Gabriele",
+      "teaser": "After winning Game 6 in Cleveland on Thursday night to send the series to Game 7, cavs.com has your five keys to a Cavaliers World Championship.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/warriors-160619-1.jpg?itok=26byj3Fi",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/warriors-160619-1.jpg?itok=AADWyEG7",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/warriors-160619-1.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/warriors-160619-1.jpg?itok=26byj3Fi",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "players": [
+          "Dellavedova, Matthew",
+          "Frye, Channing",
+          "Irving, Kyrie",
+          "James, LeBron",
+          "Jefferson, Richard",
+          "Jones, Dahntay",
+          "Jones, James",
+          "Kaun, Sasha",
+          "Love, Kevin",
+          "McRae, Jordan",
+          "Mozgov, Timofey",
+          "Shumpert, Iman",
+          "Smith, J.R.",
+          "Thompson, Tristan",
+          "Williams, Mo"
+        ],
+        "coaches": [
+          "Lue, Tyronn"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160619/CLEGSW",
+            "gid": "0041500407"
+          }
+        ],
+        "players_info": {
+          "2210": {
+            "first_name": "Richard",
+            "last_name": "Jefferson",
+            "person_id": "2210"
+          },
+          "2544": {
+            "first_name": "LeBron",
+            "last_name": "James",
+            "person_id": "2544"
+          },
+          "2563": {
+            "first_name": "Dahntay",
+            "last_name": "Jones",
+            "person_id": "2563"
+          },
+          "2590": {
+            "first_name": "Mo",
+            "last_name": "Williams",
+            "person_id": "2590"
+          },
+          "2592": {
+            "first_name": "James",
+            "last_name": "Jones",
+            "person_id": "2592"
+          },
+          "2747": {
+            "first_name": "J.R.",
+            "last_name": "Smith",
+            "person_id": "2747"
+          },
+          "101112": {
+            "first_name": "Channing",
+            "last_name": "Frye",
+            "person_id": "101112"
+          },
+          "201567": {
+            "first_name": "Kevin",
+            "last_name": "Love",
+            "person_id": "201567"
+          },
+          "201619": {
+            "first_name": "Sasha",
+            "last_name": "Kaun",
+            "person_id": "201619"
+          },
+          "202389": {
+            "first_name": "Timofey",
+            "last_name": "Mozgov",
+            "person_id": "202389"
+          },
+          "202681": {
+            "first_name": "Kyrie",
+            "last_name": "Irving",
+            "person_id": "202681"
+          },
+          "202684": {
+            "first_name": "Tristan",
+            "last_name": "Thompson",
+            "person_id": "202684"
+          },
+          "202697": {
+            "first_name": "Iman",
+            "last_name": "Shumpert",
+            "person_id": "202697"
+          },
+          "203521": {
+            "first_name": "Matthew",
+            "last_name": "Dellavedova",
+            "person_id": "203521"
+          },
+          "203895": {
+            "first_name": "Jordan",
+            "last_name": "McRae",
+            "person_id": "203895"
+          }
+        },
+        "tags": [
+          "gameday",
+          "Joe Gabriele",
+          "keys to the game",
+          "6-19-16 at Warriors",
+          "2016 Finals vs Warriors",
+          "2016 Playoffs"
+        ]
+      }
+    },
+    {
+      "nid": "42557",
+      "type": "story",
+      "title": "One Win Away",
+      "subtitle": "Cavaliers Go Wire-to-Wire Over Warriors, Force Game 7 on Sunday in Oakland",
+      "language": "en",
+      "url": "http://www.nba.com/cavaliers/news/features/recap-warriors6-160616",
+      "api-url": "http://www.nba.com/cavaliers/api/1.1/json?nid=42557",
+      "created": "17 Jun 2016 07:00:00 UTC",
+      "changed": "17 Jun 2016 07:41:12 UTC",
+      "formatted": {
+        "created": "2016-06-17",
+        "changed": "2016-06-17"
+      },
+      "author": "Nick Adams",
+      "teaser": "On Thursday night, the Cavaliers did something that hasn’t been done in 50 years – sending the NBA Finals to Game 7 after trailing the series, 3-1.",
+      "images": {
+        "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/lbj_160616.jpg?itok=8yV9DQga",
+        "large": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/story_main_photo/public/lbj_160616.jpg?itok=j-kw4VT9",
+        "raw": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/lbj_160616.jpg"
+      },
+      "thumbnail": "http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/styles/stream/public/lbj_160616.jpg?itok=8yV9DQga",
+      "taxonomy": {
+        "section": [
+          "Features"
+        ],
+        "teams": [
+          "Cavaliers",
+          "Warriors"
+        ],
+        "schedule": [
+          {
+            "gurl": "20160616/GSWCLE",
+            "gid": "0041500406"
+          }
+        ],
+        "tags": [
+          "Recap",
+          "Joe Gabriele",
+          "Features",
+          "6-16-16 vs Warriors",
+          "2016 Finals vs Warriors",
+          "2016 Playoffs"
+        ]
+      }
+    }
+  ],
+  "next": "http://www.nba.com/cavaliers/api/1.1/json/?tags=Joe%20Gabriele&sort=changed&size=25&offset=25"
+}

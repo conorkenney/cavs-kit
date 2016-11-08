@@ -1,0 +1,133 @@
+
+<div class="contest-header">
+    <img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/pediatric_cancer_awareness_banner-1200x400.jpg" class="img-responsive" alt="Blocking Pediatric Cancer presented by Elk & Elk">
+</div>
+
+<div class="container" id="main-contain">
+    <div class="row">
+        <div class="col-md-8">
+
+            <div class="featured-sections">
+
+                <h2 class="wine"><strong>Using Austin’s catch-phrase “Get That Weak Stuff Outta Here”, a donation will be made by Elk & Elk for each Cavaliers blocked shot throughout the season, including playoffs.</strong></h2>
+
+                <p class="big thin blackish">The Cavaliers and Elk & Elk are teaming up, along with Cavs personality “Mr. Cavalier”, Austin Carr, to raise awareness and contribute to the efforts of fighting Pediatric Cancer, focusing all benefits on Cleveland Clinic Children’s.</p>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <div class="tree-tracker">
+                <img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/blcok-icon1.png" alt="Get That Weak Stuff Outta Here" class="img-responsive">
+                <h3>Total Blocks</h3>
+                <h4 class="total-blocks"></h4>
+                <p class="total-donation"></p>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<div class="featured-sections">
+
+    <p class="medium wine"><b>Check out some more interesting stats from this season and beyond.</b></p>
+
+    <!--<small>*Denotes 2014-15 Regular Season</small>-->
+    <div class="row" style="margin-left: -2px;">
+        <div class="stats">
+
+            <div class="container">
+                <!-- Three columns -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="panel">
+                            <div class="image-blocks-leader"></div>
+                            <div class="panel-body">
+                                <h3>Team Leader</h3>
+                                <div class="blocks-leader-total"><h4></h4></div>
+                                <h5><div class="name-blocks"></div></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="panel">
+                            <img src="http://stats.nba.com/media/img/teams/logos/ORL_logo.svg" alt="Orlando Magic" class="img-responsive" style="max-height:180px; padding:4px;">
+                            <div class="panel-body">
+                                <h3>Most in a Game This Season</h3>
+                                <h4>6</h4>
+                                <h5>October 29, 2016 vs. Orlando</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                        <div class="panel">
+                            <img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/cavs-logo-151018-230x185.png" alt="Cleveland Cavaliers" class="img-responsive">
+                            <div class="panel-body">
+                                <h3>Most In a Season</h3>
+                                <h4>621</h4>
+                                <h5>1991-92 Season</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 3PT STATS PLACEMENT -->
+
+<!--
+<div class="col-md-4 col-centered text-center">
+    <small>Trees will be donated by:</small>
+    <br />
+    <img src="http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/davey-trees-logo-151104.jpg" alt="Tree Tracker" class="img-responsive">
+</div>-->
+<script>var corsio = '';
+var blockElkFeed = 'http://data.nba.com/data/1m/v2015/json/mobile_teams/nba/2016/teams/statistics/cavaliers/teamstats_02.json';
+var blockLeadElkFeed = 'http://data.nba.com/data/1m/v2015/json/mobile_teams/nba/2016/teams/statistics/cavaliers/leaders_02.json';</script> 
+<script>    (function($) {
+        $.getJSON(blockElkFeed, function(a) {
+            var totalBlocks = a.sta.blk.tot;
+            var totalDonation = totalBlocks * 100
+            $('.total-blocks').html(totalBlocks);
+            $('.total-donation').html('Total Amount Donated $' + totalDonation.formatMoney(0, '.', ','));
+        });
+        Number.prototype.formatMoney = function(c, d, t) {
+            var n = this,
+                c = isNaN(c = Math.abs(c)) ? 2 : c,
+                d = d == undefined ? "." : d,
+                t = t == undefined ? "," : t,
+                s = n < 0 ? "-" : "",
+                i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+                j = (j = i.length) > 3 ? j % 3 : 0;
+            return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+        };
+
+        $.getJSON(blockLeadElkFeed, function(b) {
+            var blocksLeaderFirstName = b.tle.blk.fn;
+            var blocksLeaderLastName = b.tle.blk.ln;
+            var blocksLeaderID = b.tle.blk.pid;
+            var blocksLeaderTotal;
+            var blocksLeaderTotal = b.tle.blk.ln;
+            $('.name-blocks').html(blocksLeaderFirstName + " " + blocksLeaderLastName);
+            $('.image-blocks-leader').html('<img class="img-responsive" src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/statscube/players/large/' + blocksLeaderFirstName + '_' + blocksLeaderLastName + '.png">');
+
+            $.getJSON('http://data.nba.com/data/1m/v2015/json/mobile_teams/nba/2016/players/playercard_' + blocksLeaderID + '_02.json', function(c) {
+                var seasonList = c.pl.ct.st;
+                for (var i = 0; i < seasonList.length; i++) {
+                    if (seasonList[i].val == '16-17') {
+                        $('.blocks-leader-total').html("<h4>" + seasonList[i].blk + "</h4>");
+                    }
+                }
+            });
+        });
+        
+    })(jQuery);
+</script> 
+<style type="text/css" media="screen">#main-contain{margin:0 auto;font-family:Open Sans,Helvetica,Arial,sans-serif;margin-top:-6px}.contest-header{margin-top:-6px;margin-right:-12px;margin-bottom:15px;width:101.1%}h1,h2,h3,h4,h5,h6{color:#1a1a1a;text-transform:none;margin-top:0}h1{font-size:36px;line-height:48px;margin-bottom:25px}h2{font-size:28px;line-height:36px;margin-bottom:25px}h3{font-size:24px;line-height:25px}h4{font-size:17px;line-height:25px}h5{font-size:16px;line-height:25px}h6{font-size:13px;line-height:25px}.bigtext h1,.bigtext h2,.bigtext h3,.bigtext h4,.bigtext h5,.bigtext h6,h1.bigtext,h2.bigtext,h3.bigtext,h4.bigtext,h5.bigtext,h6.bigtext{line-height:1.1em;padding-bottom:2px;font-family:Montserrat,Helvetica,Arial,sans-serif}.bigtext h1,h1.bigtext{font-size:80px}.bigtext h2,h2.bigtext{font-size:70px}.bigtext h3,h3.bigtext{font-size:60px}.bigtext h4,h4.bigtext{font-size:50px}.bigtext h5,h5.bigtext{font-size:40px}.bigtext h6,h6.bigtext{font-size:25px}.text-white,h1.text-white,h2.text-white,h3.text-white,h4.text-white,h5.text-white,h6.text-white,p.text-white,.text-white h1,.text-white h2,.text-white h3,.text-white h4,.text-white h5,.text-white h6,.text-white p{color:#fff}.text-light,h1.text-light,h2.text-light,h3.text-light,h4.text-light,h5.text-light,h6.text-light,p.text-light,.text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light p{color:#adadad}.text-dark,h1.text-dark,h2.text-dark,h3.text-dark,h4.text-dark,h5.text-dark,h6.text-dark,p.text-dark,.text-dark h1,.text-dark h2,.text-dark h3,.text-dark h4,.text-dark h5,.text-dark h6,.text-dark p{color:#1a1a1a}.text-color,h1.text-color,h2.text-color,h3.text-color,h4.text-color,h5.text-color,h6.text-color,p.text-color,.text-color h1,.text-color h2,.text-color h3,.text-color h4,.text-color h5,.text-color h6,.text-color p{color:#fdba31}h1.serif,h2.serif,h3.serif,h4.serif,h5.serif,h6.serif,p.serif,.serif h1,.serif h2,.serif h3,.serif h4,.serif h5,.serif h6,.serif p{font-family:Volkhov,Times New Roman,Georgia,serif;font-weight:400}.wine{color:#860038}.gold{color:#fdba31}.black{color:#000}.blackish{color:#333}p.big{font-size:18px;line-height:1.3em}p.medium{font-size:16px;line-height:1.2em}.small,small{font-size:12px}.italic,em{font-style:italic}.bold,strong,b{font-weight:900}.thin{font-weight:300}.no-uppercase{text-transform:none}.uppercase{text-transform:uppercase}.letterspace{letter-spacing:.1em}.ordered-list{list-style-type:decimal;list-style-position:inside;margin-bottom:25px}.unordered-list{list-style-type:disc;list-style-position:inside;margin-bottom:25px}@media screen and (min-width:701px){.featured-sections{width:94%;margin:0 auto;margin-top:20px;padding-top:20px;display:table;text-align:center}}@media screen and (max-width:700px) and (min-width:200px){.featured-sections{width:90%;margin:0 auto;margin-top:10px;padding-top:10px;display:table;text-align:center}}.stats{background-color:#efefef;margin-top:10px;padding-top:10px;padding-bottom:10px}.stats-box{width:100%;margin-top:25px;margin-bottom:25px;box-shadow:0 0 13px -3px #000;margin-left:auto;margin-right:auto}.stats-box .copy{background-color:#fff;text-align:center;color:#860038;border-bottom-left-radius:3px;border-bottom-right-radius:3px}.stats-box .copy .name{font-weight:700;font-size:21px;text-transform:uppercase;padding-top:10px}.total-donation{font-weight:700;background-color:#002d62;padding:20px;color:white}.stats-box .copy .count{font-size:15px;text-transform:uppercase;padding-bottom:10px}.panel{margin:auto 0;text-align:center;border:none}.col-xs-12.col-sm-6.col-md-6.col-lg-4{margin-bottom:20px;margin-top:20px}.stats h3{text-align:center;color:#888;font-size:18px;font-weight:900;margin-bottom:25px}.stats h4{text-align:center;color:#860038;font-size:80px;font-weight:900;margin-bottom:25px}.stats h5{text-align:center;font-size:13px}.panel-body{padding:15px;margin-bottom:20px}.img-responsive{margin:auto}.tree-tracker{padding:1em 3em;background:#fff;box-shadow:inset 0 0 0 1px rgba(0,0,0,.15),0 2px 3px 0 rgba(0,0,0,.1);margin-bottom:-10px}.tree-tracker h3{text-align:center;color:#888;font-size:18px;font-weight:900;margin-bottom:25px}.tree-tracker h4{text-align:center;color:#860038;font-size:80px;font-weight:900;margin-bottom:25px}.col-centered{float:none;margin:0 auto}</style>

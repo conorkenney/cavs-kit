@@ -1,0 +1,407 @@
+    .tix-page {
+        width: 101%;
+        background-color: #EDEDED;
+    }
+    
+    .anchor {
+        margin-top: -85px;
+        padding-top: 85px;
+    }
+    
+    .tix-header {
+        /*min-height: 120px;*/
+        background-color: #860038;
+        color: #FFFFFF;
+    }
+    
+    .tix-header h1 {
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    
+    .game-box {
+        background-color: #FFFFFF;
+        /*margin-bottom: 30px;*/
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .game-box-header {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    h2.game-time {
+        margin-top: 0;
+        padding: 3px 0 0 0;
+    }
+    
+    h4.game-time {
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    .promotional-info {
+        border-top: solid 1px #EEEEEE;
+        padding: 5px;
+        z-index: 99;
+    }
+    
+    .opp-logo {
+        padding: 5px;
+        min-height: 100px;
+    }
+    
+    .opp-logo img {
+        max-width: 90px;
+        padding-right: 5px;
+        margin: 0 auto;
+        max-height: 90px;
+        float: right;
+    }
+    
+    .game-details {
+        padding-top: 0;
+    }
+    
+    .opp-name {
+        margin: 10px 0;
+    }
+    /*@media (min-width: 640px) {
+    .opp-name {
+        margin: 0;
+    }
+}*/
+    
+    .game-date {
+        font-weight: bold;
+    }
+    
+    .game-time {
+        text-transform: uppercase;
+        padding-top: 0px;
+    }
+    
+    .starting-tix {
+        padding-left: 0;
+    }
+    
+    .starting-at {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .starting-price {
+        margin: 10px;
+    }
+    
+    .ticket-button {
+        padding: 10px 4px;
+        margin: 5px 0 0;
+        display: block;
+        border-radius: 2px;
+    }
+    
+    .ticket-single {
+        background-color: #3b71b1;
+    }
+    
+    .ticket-vip {
+        background-color: #002D62;
+    }
+    
+    .ticket-prem {
+        background-color: #323232;
+        /*color: #000;*/
+        /*border: solid 2px #FDBA31;*/
+    }
+    
+    .ticket-single:hover {
+        border: solid 2px #3b71b1;
+        color: #3b71b1;
+    }
+    
+    .ticket-vip:hover {
+        border: solid 2px #002D62;
+        color: #002D62;
+    }
+    
+    .ticket-prem:hover {
+        border: solid 2px #323232;
+        color: #323232;
+    }
+    
+    .single-tix,
+    .flash-seats,
+    .vip-tix,
+    .prem-tix {
+        padding-left: 15px;
+        padding-right: 15px;
+        z-index: 100;
+    }
+    
+    .single-tix {}
+    
+    .flash-seats {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .btn-story {
+        font-size: 14px;
+    }
+    
+    .promotional-info {
+        padding: 5px;
+        font-weight: 400;
+        color: #434343;
+    }
+
+    @media (min-width: 769px) and (max-width:992px) {
+        .game-time {
+            padding-top: 10px;
+        }
+        .ticket-button {
+            margin: 0 0 0;
+        }
+        .single-tix,
+        .flash-seats,
+        .vip-tix,
+        .prem-tix {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .flash-seats {
+            padding-bottom: 10px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .starting-at {
+            padding-top: 10px;
+            /*border-top: solid 1px #000000;*/
+        }
+        /*
+    .ticket-button {
+        padding: 15px 18px;
+        margin: 5px;
+        display: block;
+    }*/
+        .col-xs-6 {
+            width: 50%;
+        }
+        .single-tix,
+        .flash-seats,
+        .vip-tix,
+        .prem-tix {
+            padding: 0;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .game-details {
+            padding-right: 0;
+        }
+        .opp-name {
+            margin: 12px 0;
+        }
+        .opp-logo img {
+            float: none;
+        }
+        .ticket-button {
+            padding: 15px 4px;
+            margin: 20px 0 0;
+            display: block;
+            border-radius: 2px;
+            /*color: #FFFFFF;*/
+        }
+        .single-tix,
+        .flash-seats,
+        .vip-tix,
+        .prem-tix {
+            padding: 0;
+            padding-right: 15px;
+            padding-left: 0;
+        }
+        h2.game-time {
+            margin-top: 20px;
+            padding: 10px 0 0 0;
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width:1200px) {
+        .game-details {
+            padding-top: 3px;
+        }
+        .opp-logo img {
+            padding-top: 10px;
+            max-width: 64px;
+        }
+        .opp-name {
+            margin: 2px 0;
+        }
+        .game-date {
+            font-size: 12px;
+        }
+        .game-time {
+            margin: 2px 0;
+        }
+        .starting-tix {
+            padding-left: 0;
+        }
+        .starting-at {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 12px;
+        }
+        .starting-price {
+            font-size: 18px;
+            font-weight: bold;
+            padding-top: 0;
+        }
+    }
+    
+    .atl {
+        /*background-color: #E13A3E;*/
+        border-right: 5px solid #C4D600;
+    }
+    
+    .bos {
+        /*background-color: #008348;*/
+        border-right: 5px solid #BB9753;
+    }
+    
+    .bkn {
+        /*background-color: #FFFFFF;*/
+        border-right: 5px solid #061922;
+    }
+    
+    .cha {
+        /*background-color: #1D1160;*/
+        border-right: 5px solid #008CA8;
+    }
+    
+    .chi {
+        /*background-color: #FFFFFF;*/
+        border-right: 5px solid #CE1141;
+    }
+    
+    .dal {
+        /*background-color: #20385B;*/
+        border-right: 5px solid #007DC5;
+    }
+    
+    .den {
+        /*background-color: #4D90CD;*/
+        border-right: 5px solid #FDB927;
+    }
+    
+    .det {
+        /*background-color: #ED174C;*/
+        border-right: 5px solid #006BB6;
+    }
+    
+    .gsw {
+        /*background-color: #FDB927;*/
+        border-right: 5px solid #006BB6;
+    }
+    
+    .hou {
+        /*background-color: #C4CED3;*/
+        border-right: 5px solid #CE1141;
+    }
+    
+    .ind {
+        /*background-color: #FFC633;*/
+        border-right: 5px solid #00275D;
+    }
+    
+    .lac {
+        /*background-color: #006BB6;*/
+        border-right: 5px solid #ED174C;
+    }
+    
+    .lal {
+        /*background-color: #552582;*/
+        border-right: 5px solid #FDB927;
+    }
+    
+    .mem {
+        /*background-color: #7399C6;*/
+        border-right: 5px solid #FDB927;
+    }
+    
+    .mia {
+        /*background-color: #F9A01B;*/
+        border-right: 5px solid #98002E;
+    }
+    
+    .mil {
+        /*background-color: #F0EBD2;*/
+        border-right: 5px solid #00471B;
+    }
+    
+    .min {
+        /*background-color: #005083;*/
+        border-right: 5px solid #00A94F;
+    }
+    
+    .nop {
+        /*background-color: #002B5C;*/
+        border-right: 5px solid #E31837;
+    }
+    
+    .nyk {
+        /*background-color: #006BB6;*/
+        border-right: 5px solid #F58426;
+    }
+    
+    .okc {
+        /*background-color: #007DC3;*/
+        border-right: 5px solid #F05133;
+    }
+    
+    .orl {
+        /*background-color: #007DC5;*/
+        border-right: 5px solid #061922;
+    }
+    
+    .phi {
+        /*background-color: #ED174C;*/
+        border-right: 5px solid #006BB6;
+    }
+    
+    .phx {
+        /*background-color: #E56020;*/
+        border-right: 5px solid #1D1160;
+    }
+    
+    .por {
+        /*background-color: #061922;*/
+        border-right: 5px solid #E03A3E;
+    }
+    
+    .sac {
+        /*background-color: #442d60;*/
+        border-right: 5px solid #061922;
+    }
+    
+    .sas {
+        /*background-color: #061922;*/
+        border-right: 5px solid #BAC3C9;
+    }
+    
+    .tor {
+        /*background-color: #061922;*/
+        border-right: 5px solid #CE1141;
+    }
+    
+    .uta {
+        /*background-color: #002B5C;*/
+        border-right: 5px solid #F9A01B;
+    }
+    
+    .was {
+        /*background-color: #E31837;*/
+        border-right: 5px solid #002B5C;
+    }

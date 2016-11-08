@@ -1,0 +1,356 @@
+/* CSS Goes Here */
+
+
+/* --------        JOE'S BASE CSS        -------- */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    background-color: #000;
+}
+
+a,
+a:hover {
+    color: #860038;
+}
+
+.dropdown-menu {
+    position: relative;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    /* padding: 5px 0; */
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.open>.dropdown-menu {
+    display: table;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fdba31;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    background-color: #eee;
+    color: #860038;
+}
+
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #860038;
+    color: #fff;
+}
+
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+    color: #860038;
+}
+
+.navbar-nav {
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.wine {
+    color: #860038;
+}
+
+.navbar-nav {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.navbar-header {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+hr {
+    display: none;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #7c0033;
+    border-color: #b90450;
+    color: #fff;
+}
+
+.enter {
+    padding-top: 25px;
+}
+
+.divider {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    float: left;
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .button-image {
+        display: none;
+    }
+    .team-shop {
+        margin-bottom: 0px;
+    }
+    hr {
+        display: block;
+    }
+    .club-description {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1100px) {}
+
+.navbar-default {
+    background-color: rgba(35, 33, 37, .8);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f1f1f1;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+.navbar-header {
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 992px) {
+    .field-name-body li {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .field-name-body li {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+
+/* --------        WINE AND GOLD UNITED CSS        -------- */
+
+.wgn img,
+.wgu img,
+.team-shop img {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.club-tagline h4 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.club-description {
+    text-align: center;
+    min-height: 60px;
+}
+
+
+/* --------        ONE FOR THE LAND CSS        -------- */
+
+
+/*.row:nth-of-type(odd) {
+        background: #e3e3e3;
+    }*/
+
+
+/*.oftl-center {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }*/
+
+.conference-champs-splash {
+    background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/ring-splash-test-header_ring6.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 101%
+}
+
+.ecf-splash-jumbotron {
+    width: 100%;
+    min-height: 580px;
+}
+
+.ecf-splash-content {
+    background-color: #fff;
+    padding: 0px 50px 0px 50px;
+}
+
+.ecf-splash-content h4 {
+    font-size: 19px;
+    text-align: center;
+    color: #860038;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ecf-splash-btn {
+    margin: 0 auto;
+}
+
+.ecf-splash-heading h1 {
+    text-align: center;
+    color: #fff;
+    padding: 0px;
+    font-size: 70px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Raleway';
+}
+
+.ecf-splash-logo {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.ecf-splash-logo-2 {
+    display: none;
+}
+
+.ecf-splash-logo img {
+    max-height: 650px;
+}
+
+.enter img {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ecf-splash-btn {
+    width: 230px;
+    margin: 5px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #860038;
+    border-color: #b90450;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 10px 27px;
+}
+
+.ecf-splash-btn:hover {
+    background-color: #7c0033;
+    border-color: #b90450;
+    color: #fff;
+}
+
+.ecf-splash-btn:active:focus {
+    background-color: #7c0033;
+    border-color: #b90450;
+    color: #fff;
+}
+
+.ecf-splash-logo p {
+    margin-bottom: 0px;
+}
+
+.content-summary p {
+    line-height: 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+#oftl-contentbox1 > h4 {
+    color: #7f8c8d;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .ecf-splash-heading h1 {
+        font-size: 50px;
+    }
+    .ecf-splash-title {
+        text-align: center;
+        margin-bottom: 25px;
+        float: left;
+    }
+    .ecf-splash-title h2 {
+        color: #860038;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .oftl-center {
+        /*display: block;*/
+    }
+    .conference-champs-splash {
+        background-image: url(http://i.cdn.turner.com/drp/nba/cavaliers/sites/default/files/ring-splash-test-header_ring6.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        width: 101%
+    }
+    .ecf-splash-jumbotron {
+        padding: 0;
+    }
+    .ecf-splash-logo {
+        display: none;
+    }
+    .ecf-splash-logo-2 {
+        display: block;
+        padding-top: 56px;
+    }
+    .ecf-splash-logo-2 p {
+        margin: 0px;
+    }
+    .enter img {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .button-image {
+        display: none;
+    }
+}
